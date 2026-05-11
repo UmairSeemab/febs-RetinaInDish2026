@@ -1,4 +1,4 @@
-# Retina-in-a-Dish 2026 Interactive Abstract Book
+# Retina in a Dish 2026 Interactive Abstract Book
 
 Mobile-friendly static web app for GitHub Pages.
 
