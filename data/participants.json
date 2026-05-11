@@ -616,83 +616,75 @@
     "role": "Participant"
   },
   {
-    "id": "P080",
-    "name": "Local Organizing Committee",
-    "first_name": "",
-    "last_name": "Local Organizing Committee",
-    "country": "",
-    "role": "Participant"
-  },
-  {
     "id": "P081",
     "name": "Nicholas Bariesheff",
     "first_name": "Nicholas",
     "last_name": "Bariesheff",
-    "country": "",
-    "role": "Participant"
+    "country": "Finland",
+    "role": "Local Organizing Committee"
   },
   {
     "id": "P082",
     "name": "Santhana Gopalakrishan",
     "first_name": "Santhana",
     "last_name": "Gopalakrishan",
-    "country": "",
-    "role": "Participant"
+    "country": "Finland",
+    "role": "Local Organizing Committee"
   },
   {
     "id": "P083",
     "name": "Anna Kalatanova",
     "first_name": "Anna",
     "last_name": "Kalatanova",
-    "country": "",
-    "role": "Participant"
+    "country": "Finland",
+    "role": "Local Organizing Committee"
   },
   {
     "id": "P084",
     "name": "Eerik Lappalainen",
     "first_name": "Eerik",
     "last_name": "Lappalainen",
-    "country": "",
-    "role": "Participant"
+    "country": "Finland",
+    "role": "Local Organizing Committee"
   },
   {
     "id": "P085",
     "name": "Anthi-Styliani Makiou",
     "first_name": "Anthi-Styliani",
     "last_name": "Makiou",
-    "country": "",
-    "role": "Participant"
+    "country": "Finland",
+    "role": "Local Organizing Committee"
   },
   {
     "id": "P086",
     "name": "Elina Mäkinen",
     "first_name": "Elina",
     "last_name": "Mäkinen",
-    "country": "",
-    "role": "Participant"
+    "country": "Finland",
+    "role": "Local Organizing Committee"
   },
   {
     "id": "P087",
     "name": "Umair Seemab",
     "first_name": "Umair",
     "last_name": "Seemab",
-    "country": "",
-    "role": "Participant"
+    "country": "Finland",
+    "role": "Local Organizing Committee"
   },
   {
     "id": "P088",
     "name": "Tommi Torsti",
     "first_name": "Tommi",
     "last_name": "Torsti",
-    "country": "",
-    "role": "Participant"
+    "country": "Finland",
+    "role": "Local Organizing Committee"
   },
   {
     "id": "P089",
     "name": "Katri Vainionpää",
     "first_name": "Katri",
     "last_name": "Vainionpää",
-    "country": "",
-    "role": "Participant"
+    "country": "Finland",
+    "role": "Local Organizing Committee"
   }
 ]
