@@ -5,3 +5,6 @@
 .country-summary{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
 .country-pill{padding:8px 12px;border-radius:999px;background:#eef6ff;color:#073763;font-size:.92rem}
 @media(max-width:700px){.chart-wrap{height:300px}.chart-panel{padding:16px}}
+
+.speaker-card{background:linear-gradient(180deg,#ffffff,#f3f9ff);border-color:#b9d8ef}
+.speaker-card h3{color:#0f3b5f}

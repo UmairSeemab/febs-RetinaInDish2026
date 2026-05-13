@@ -1,12 +1,33 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Retina in a Dish 2026</title><link rel="stylesheet" href="style.css"></head><body>
-<header class="hero"><div class="overlay"><img src="assets/images/Ilmosivun headeriin.png" class="header-img" onerror="this.style.display='none'"><h1 id="eventTitle">Retina in a Dish 2026</h1><p id="eventSub"></p></div></header>
-<nav class="tabs"><a href="#home">Home</a><a href="#program">Program</a><a href="#abstracts">Abstracts</a><a href="#participants">Participants</a><a href="#sponsors">Sponsors</a></nav>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Retina in a Dish 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="overlay">
+    <img src="assets/images/Ilmosivun headeriin.png" class="header-img" onerror="this.style.display='none'">
+    <h1 id="eventTitle">Retina in a Dish 2026</h1>
+    <p id="eventSub"></p>
+  </div>
+</header>
+<nav class="tabs">
+  <a href="#home">Home</a>
+  <a href="#program">Program</a>
+  <a href="#speakers">Speakers</a>
+  <a href="#abstracts">Abstracts</a>
+  <a href="#participants">Participants</a>
+  <a href="#sponsors">Sponsors</a>
+</nav>
 <main>
 <section id="home" class="panel"><h2>Overview</h2><div id="overview" class="cards"></div><h2>Week in a nutshell</h2><div id="week" class="timeline"></div></section>
 <section id="program" class="panel"><h2>Program schedule</h2><div class="controls"><input id="programSearch" placeholder="Search program"><select id="dayFilter"><option value="">All days</option></select></div><div id="programList"></div></section>
+<section id="speakers" class="panel"><h2>Speakers</h2><div class="controls"><input id="speakerSearch" placeholder="Search speakers"><select id="speakerCountryFilter"><option value="">All countries</option></select></div><div id="speakerList" class="people"></div><div class="chart-panel"><h2>Speakers by country</h2><p class="muted">Country distribution based on the speaker list.</p><div class="chart-wrap"><canvas id="speakerCountryChart"></canvas></div><div id="speakerCountrySummary" class="country-summary"></div></div></section>
 <section id="abstracts" class="panel"><h2>Poster abstracts</h2><div class="controls"><input id="abstractSearch" placeholder="Search by title, author, keyword"><select id="categoryFilter"><option value="">All categories</option></select></div><div id="abstractCount"></div><div id="abstractList" class="grid"></div></section>
-<section id="participants" class="panel"><h2>Participant directory</h2><div class="controls"><input id="participantSearch" placeholder="Search participants"><select id="countryFilter"><option value="">All countries</option></select></div><div id="participantList" class="people"></div><div class="chart-panel"><h2>Participants by country</h2><p class="muted">Country distribution based on the participant list.</p><div class="chart-wrap"><canvas id="countryChart"></canvas></div><div id="countrySummary" class="country-summary"></div></div></section>
+<section id="participants" class="panel"><h2>Participant directory</h2><div class="controls"><input id="participantSearch" placeholder="Search participants"><select id="countryFilter"><option value="">All countries</option></select></div><div id="participantList" class="people"></div><div class="chart-panel"><h2>Participants by country</h2><p class="muted">Country distribution based on participant list only. Speakers are shown in the Speakers tab.</p><div class="chart-wrap"><canvas id="countryChart"></canvas></div><div id="countrySummary" class="country-summary"></div></div></section>
 <section id="sponsors" class="panel"><h2>Sponsors</h2><div id="sponsorList" class="sponsors"></div></section>
 </main>
 <div id="modal" class="modal"><div class="modal-card"><button id="closeModal" class="close">×</button><div id="modalContent"></div></div></div>
