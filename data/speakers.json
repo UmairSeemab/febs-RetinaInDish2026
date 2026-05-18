@@ -5,7 +5,8 @@
     "first_name": "Petri",
     "last_name": "Ala-Laurila",
     "country": "Finland",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": "http://ala-laurila.biosci.helsinki.fi/#members"
   },
   {
     "id": "P058",
@@ -13,7 +14,8 @@
     "first_name": "Ana",
     "last_name": "Almansa García",
     "country": "Germany",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P059",
@@ -21,7 +23,8 @@
     "first_name": "Blanca",
     "last_name": "Arango-Gonzalez",
     "country": "Germany",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P060",
@@ -29,7 +32,8 @@
     "first_name": "Marco",
     "last_name": "Bassetto",
     "country": "USA",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P061",
@@ -37,7 +41,8 @@
     "first_name": "Antolin",
     "last_name": "Canto",
     "country": "Spain",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P062",
@@ -45,7 +50,8 @@
     "first_name": "Yuanyuan",
     "last_name": "Chen",
     "country": "USA",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P063",
@@ -53,7 +59,8 @@
     "first_name": "Valérie",
     "last_name": "Fradot",
     "country": "France",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P064",
@@ -61,7 +68,8 @@
     "first_name": "Catherine",
     "last_name": "Hottin",
     "country": "Germany",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P065",
@@ -69,7 +77,8 @@
     "first_name": "Giedrius",
     "last_name": "Kalesnykas",
     "country": "Finland",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P066",
@@ -77,7 +86,8 @@
     "first_name": "Alexa",
     "last_name": "Klettner",
     "country": "Germany",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P067",
@@ -85,7 +95,8 @@
     "first_name": "Henri",
     "last_name": "Leinonen",
     "country": "Finland",
-    "role": "Speaker & Course Organizer"
+    "role": "Speaker & Course Organizer",
+    "profile_url": "https://leinonenretinalab.com/research-group/"
   },
   {
     "id": "P068",
@@ -93,7 +104,8 @@
     "first_name": "María",
     "last_name": "Miranda",
     "country": "Spain",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P069",
@@ -101,7 +113,8 @@
     "first_name": "Grazyna",
     "last_name": "Palczewska",
     "country": "USA",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P070",
@@ -109,7 +122,8 @@
     "first_name": "Krzysztof",
     "last_name": "Palczewski",
     "country": "USA",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P071",
@@ -117,7 +131,8 @@
     "first_name": "François",
     "last_name": "Paquet-Durand",
     "country": "Germany",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P072",
@@ -125,7 +140,8 @@
     "first_name": "Xandra",
     "last_name": "Pereiro",
     "country": "Spain",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P073",
@@ -133,7 +149,8 @@
     "first_name": "Jukka",
     "last_name": "Puoliväli",
     "country": "Finland",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P074",
@@ -141,7 +158,8 @@
     "first_name": "Raunak",
     "last_name": "Sinha",
     "country": "USA",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P075",
@@ -149,7 +167,8 @@
     "first_name": "Teemu",
     "last_name": "Turunen",
     "country": "Finland",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P076",
@@ -157,7 +176,8 @@
     "first_name": "Marius",
     "last_name": "Ueffing",
     "country": "Germany",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P077",
@@ -165,7 +185,8 @@
     "first_name": "Arto",
     "last_name": "Urtti",
     "country": "Finland",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   },
   {
     "id": "P078",
@@ -173,6 +194,7 @@
     "first_name": "Frans",
     "last_name": "Vinberg",
     "country": "USA",
-    "role": "Speaker"
+    "role": "Speaker",
+    "profile_url": ""
   }
 ]

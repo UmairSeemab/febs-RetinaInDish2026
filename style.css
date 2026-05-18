@@ -8,3 +8,20 @@
 
 .speaker-card{background:linear-gradient(180deg,#ffffff,#f3f9ff);border-color:#b9d8ef}
 .speaker-card h3{color:#0f3b5f}
+
+
+.speaker-link{
+  color:#0f3b5f;
+  text-decoration:none;
+}
+.speaker-link:hover{
+  color:#0f6595;
+  text-decoration:underline;
+}
+.profile-hint{
+  display:block;
+  margin-top:8px;
+  color:#0f6595;
+  font-size:.82rem;
+  font-weight:700;
+}
