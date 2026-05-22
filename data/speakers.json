@@ -1,75 +1,13 @@
 [
   {
-    "id": "P057",
-    "name": "Petri Ala-Laurila",
-    "first_name": "Petri",
-    "last_name": "Ala-Laurila",
+    "id": "P077",
+    "name": "Arto Urtti",
+    "first_name": "Arto",
+    "last_name": "Urtti",
     "country": "Finland",
-    "role": "Speaker",
-    "profile_url": "http://ala-laurila.biosci.helsinki.fi/#members"
-  },
-  {
-    "id": "P058",
-    "name": "Ana Almansa García",
-    "first_name": "Ana",
-    "last_name": "Almansa García",
-    "country": "Germany",
-    "role": "Speaker",
-    "profile_url": "https://scholar.google.com/citations?user=APG5NWkAAAAJ&hl=es"
-  },
-  {
-    "id": "P059",
-    "name": "Blanca Arango-Gonzalez",
-    "first_name": "Blanca",
-    "last_name": "Arango-Gonzalez",
-    "country": "Germany",
-    "role": "Speaker",
-    "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/ueffing-lab/members/blanca-arango-gonzalez"
-  },
-  {
-    "id": "P060",
-    "name": "Marco Bassetto",
-    "first_name": "Marco",
-    "last_name": "Bassetto",
-    "country": "USA",
-    "role": "Speaker",
-    "profile_url": "https://scholar.google.com/citations?user=jAMixB0AAAAJ&hl=en"
-  },
-  {
-    "id": "P061",
-    "name": "Antolin Canto",
-    "first_name": "Antolin",
-    "last_name": "Canto",
-    "country": "Spain",
-    "role": "Speaker",
-    "profile_url": "https://www.uchceu.es/directorio/antolin-cantocatala"
-  },
-  {
-    "id": "P062",
-    "name": "Yuanyuan Chen",
-    "first_name": "Yuanyuan",
-    "last_name": "Chen",
-    "country": "USA",
-    "role": "Speaker",
-    "profile_url": "https://www.ophthalmology.pitt.edu/people/yuanyuan-chen-phd"
-  },
-  {
-    "id": "P063",
-    "name": "Valérie Fradot",
-    "first_name": "Valérie",
-    "last_name": "Fradot",
-    "country": "France",
-    "role": "Speaker",
-    "profile_url": "https://www.institut-vision.org/index.php/en/researchers/valerie-fradot"
-  },
-  {
-    "id": "P064",
-    "name": "Catherine Hottin",
-    "first_name": "Catherine",
-    "last_name": "Hottin",
-    "country": "Germany",
-    "role": "Speaker",
-    "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/paquet-durand-lab/members"
+    "role": "Keynote Speaker",
+    "profile_url": "https://uefconnect.uef.fi/en/arto.urtti/",
+    "photo": ""
   },
   {
     "id": "P065",
@@ -77,8 +15,49 @@
     "first_name": "Giedrius",
     "last_name": "Kalesnykas",
     "country": "Finland",
-    "role": "Speaker",
-    "profile_url": "https://experimentica.com/team/giedrius-kalesnykas/"
+    "role": "Keynote Speaker",
+    "profile_url": "https://experimentica.com/team/giedrius-kalesnykas/",
+    "photo": ""
+  },
+  {
+    "id": "P073",
+    "name": "Jukka Puoliväli",
+    "first_name": "Jukka",
+    "last_name": "Puoliväli",
+    "country": "Finland",
+    "role": "Keynote Speaker",
+    "profile_url": "https://experimentica.com/team/jukka-puolivali/",
+    "photo": ""
+  },
+  {
+    "id": "P070",
+    "name": "Krzysztof Palczewski",
+    "first_name": "Krzysztof",
+    "last_name": "Palczewski",
+    "country": "USA",
+    "role": "Keynote Speaker",
+    "profile_url": "https://en.wikipedia.org/wiki/Krzysztof_Palczewski",
+    "photo": ""
+  },
+  {
+    "id": "P076",
+    "name": "Marius Ueffing",
+    "first_name": "Marius",
+    "last_name": "Ueffing",
+    "country": "Germany",
+    "role": "Keynote Speaker",
+    "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/ueffing-lab/members/marius-ueffing",
+    "photo": ""
+  },
+  {
+    "id": "P075",
+    "name": "Teemu Turunen",
+    "first_name": "Teemu",
+    "last_name": "Turunen",
+    "country": "Finland",
+    "role": "Keynote Speaker",
+    "profile_url": "https://www.linkedin.com/in/teemu-t-turunen/",
+    "photo": ""
   },
   {
     "id": "P066",
@@ -87,106 +66,48 @@
     "last_name": "Klettner",
     "country": "Germany",
     "role": "Speaker",
-    "profile_url": "https://www.uni-kiel.de/en/person/klettner-alexa-karina-8087"
+    "profile_url": "https://www.uni-kiel.de/en/person/klettner-alexa-karina-8087",
+    "photo": ""
   },
   {
-    "id": "P067",
-    "name": "Henri Leinonen",
-    "first_name": "Henri",
-    "last_name": "Leinonen",
-    "country": "Finland",
-    "role": "Speaker & Course Organizer",
-    "profile_url": "https://leinonenretinalab.com/research-group/"
-  },
-  {
-    "id": "P068",
-    "name": "María Miranda",
-    "first_name": "María",
-    "last_name": "Miranda",
-    "country": "Spain",
-    "role": "Speaker",
-    "profile_url": "https://medios.uchceu.es/actualidad-ceu/en/maria-miranda-recognized-as-one-of-the-top-female-researchers-in-europe-for-vision-and-ophthalmology/"
-  },
-  {
-    "id": "P069",
-    "name": "Grazyna Palczewska",
-    "first_name": "Grazyna",
-    "last_name": "Palczewska",
-    "country": "USA",
-    "role": "Speaker",
-    "profile_url": "https://ctvr.uci.edu/about/staff/grazyna-palczewska"
-  },
-  {
-    "id": "P070",
-    "name": "Krzysztof Palczewski",
-    "first_name": "Krzysztof",
-    "last_name": "Palczewski",
-    "country": "USA",
-    "role": "Speaker",
-    "profile_url": "https://en.wikipedia.org/wiki/Krzysztof_Palczewski"
-  },
-  {
-    "id": "P071",
-    "name": "François Paquet-Durand",
-    "first_name": "François",
-    "last_name": "Paquet-Durand",
+    "id": "P058",
+    "name": "Ana Almansa García",
+    "first_name": "Ana",
+    "last_name": "Almansa García",
     "country": "Germany",
     "role": "Speaker",
-    "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/paquet-durand-lab/members/francois-paquet-durand"
+    "profile_url": "https://scholar.google.com/citations?user=APG5NWkAAAAJ&hl=es",
+    "photo": ""
   },
   {
-    "id": "P072",
-    "name": "Xandra Pereiro",
-    "first_name": "Xandra",
-    "last_name": "Pereiro",
+    "id": "P061",
+    "name": "Antolin Canto",
+    "first_name": "Antolin",
+    "last_name": "Canto",
     "country": "Spain",
     "role": "Speaker",
-    "profile_url": "https://scholar.google.com/citations?user=Rpj6GMMAAAAJ&hl=es"
+    "profile_url": "https://www.uchceu.es/directorio/antolin-cantocatala",
+    "photo": ""
   },
   {
-    "id": "P073",
-    "name": "Jukka Puoliväli",
-    "first_name": "Jukka",
-    "last_name": "Puoliväli",
-    "country": "Finland",
-    "role": "Speaker",
-    "profile_url": "https://experimentica.com/team/jukka-puolivali/"
-  },
-  {
-    "id": "P074",
-    "name": "Raunak Sinha",
-    "first_name": "Raunak",
-    "last_name": "Sinha",
-    "country": "USA",
-    "role": "Speaker",
-    "profile_url": "https://neuro.wisc.edu/staff/sinha-raunak/"
-  },
-  {
-    "id": "P075",
-    "name": "Teemu Turunen",
-    "first_name": "Teemu",
-    "last_name": "Turunen",
-    "country": "Finland",
-    "role": "Speaker",
-    "profile_url": "https://www.linkedin.com/in/teemu-t-turunen/"
-  },
-  {
-    "id": "P076",
-    "name": "Marius Ueffing",
-    "first_name": "Marius",
-    "last_name": "Ueffing",
+    "id": "P059",
+    "name": "Blanca Arango-Gonzalez",
+    "first_name": "Blanca",
+    "last_name": "Arango-Gonzalez",
     "country": "Germany",
     "role": "Speaker",
-    "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/ueffing-lab/members/marius-ueffing"
+    "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/ueffing-lab/members/blanca-arango-gonzalez",
+    "photo": ""
   },
   {
-    "id": "P077",
-    "name": "Arto Urtti",
-    "first_name": "Arto",
-    "last_name": "Urtti",
-    "country": "Finland",
+    "id": "P064",
+    "name": "Catherine Hottin",
+    "first_name": "Catherine",
+    "last_name": "Hottin",
+    "country": "Germany",
     "role": "Speaker",
-    "profile_url": "https://uefconnect.uef.fi/en/arto.urtti/"
+    "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/paquet-durand-lab/members",
+    "photo": ""
   },
   {
     "id": "P078",
@@ -195,6 +116,107 @@
     "last_name": "Vinberg",
     "country": "USA",
     "role": "Speaker",
-    "profile_url": "https://vinberglab.com/our-team"
+    "profile_url": "https://vinberglab.com/our-team",
+    "photo": ""
+  },
+  {
+    "id": "P071",
+    "name": "François Paquet-Durand",
+    "first_name": "François",
+    "last_name": "Paquet-Durand",
+    "country": "Germany",
+    "role": "Speaker",
+    "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/paquet-durand-lab/members/francois-paquet-durand",
+    "photo": ""
+  },
+  {
+    "id": "P069",
+    "name": "Grazyna Palczewska",
+    "first_name": "Grazyna",
+    "last_name": "Palczewska",
+    "country": "USA",
+    "role": "Speaker",
+    "profile_url": "https://ctvr.uci.edu/about/staff/grazyna-palczewska",
+    "photo": ""
+  },
+  {
+    "id": "P067",
+    "name": "Henri Leinonen",
+    "first_name": "Henri",
+    "last_name": "Leinonen",
+    "country": "Finland",
+    "role": "Speaker & Course Organizer",
+    "profile_url": "https://leinonenretinalab.com/research-group/",
+    "photo": ""
+  },
+  {
+    "id": "P060",
+    "name": "Marco Bassetto",
+    "first_name": "Marco",
+    "last_name": "Bassetto",
+    "country": "USA",
+    "role": "Speaker",
+    "profile_url": "https://scholar.google.com/citations?user=jAMixB0AAAAJ&hl=en",
+    "photo": ""
+  },
+  {
+    "id": "P068",
+    "name": "María Miranda",
+    "first_name": "María",
+    "last_name": "Miranda",
+    "country": "Spain",
+    "role": "Speaker",
+    "profile_url": "https://medios.uchceu.es/actualidad-ceu/en/maria-miranda-recognized-as-one-of-the-top-female-researchers-in-europe-for-vision-and-ophthalmology/",
+    "photo": ""
+  },
+  {
+    "id": "P057",
+    "name": "Petri Ala-Laurila",
+    "first_name": "Petri",
+    "last_name": "Ala-Laurila",
+    "country": "Finland",
+    "role": "Speaker",
+    "profile_url": "http://ala-laurila.biosci.helsinki.fi/#members",
+    "photo": ""
+  },
+  {
+    "id": "P074",
+    "name": "Raunak Sinha",
+    "first_name": "Raunak",
+    "last_name": "Sinha",
+    "country": "USA",
+    "role": "Speaker",
+    "profile_url": "https://neuro.wisc.edu/staff/sinha-raunak/",
+    "photo": ""
+  },
+  {
+    "id": "P063",
+    "name": "Valérie Fradot",
+    "first_name": "Valérie",
+    "last_name": "Fradot",
+    "country": "France",
+    "role": "Speaker",
+    "profile_url": "https://www.institut-vision.org/index.php/en/researchers/valerie-fradot",
+    "photo": ""
+  },
+  {
+    "id": "P072",
+    "name": "Xandra Pereiro",
+    "first_name": "Xandra",
+    "last_name": "Pereiro",
+    "country": "Spain",
+    "role": "Speaker",
+    "profile_url": "https://scholar.google.com/citations?user=Rpj6GMMAAAAJ&hl=es",
+    "photo": ""
+  },
+  {
+    "id": "P062",
+    "name": "Yuanyuan Chen",
+    "first_name": "Yuanyuan",
+    "last_name": "Chen",
+    "country": "USA",
+    "role": "Speaker",
+    "profile_url": "https://www.ophthalmology.pitt.edu/people/yuanyuan-chen-phd",
+    "photo": ""
   }
 ]

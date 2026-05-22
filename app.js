@@ -1,4 +1,4 @@
-const state={meta:null,week:[],program:[],abstracts:[],participants:[],speakers:[],sponsors:[]};
+const state={meta:null,week:[],program:[],abstracts:[],participants:[],speakers:[],sponsors:[],local_committee:[],meet_experts:[]};
 const $=id=>document.getElementById(id); const norm=s=>(s||'').toString().toLowerCase();
 let countryChart=null;
 let speakerCountryChart=null;
@@ -8,7 +8,7 @@ function renderAll(){
  const allCountries=new Set([...state.participants.map(p=>p.country).filter(Boolean),...state.speakers.map(p=>p.country).filter(Boolean)]);
  $('overview').innerHTML=[['Program items',state.program.length],['Poster abstracts',state.abstracts.length],['Speakers',state.speakers.length],['Participants',state.participants.length],['Countries',allCountries.size]].map(x=>`<div class="card"><h3>${x[1]}</h3><p>${x[0]}</p></div>`).join('');
  $('week').innerHTML=state.week.map(w=>`<div class="daybox"><div><b>${w.day}</b><br><span class="muted">${w.date}</span></div><div><b>${w.what}</b><p>${w.morning_afternoon||''}</p><span class="badge">${w.evening||'Course program'}</span></div></div>`).join('');
- initFilters(); renderProgram(); renderSpeakers(); renderSpeakerCountryChart(); renderAbstracts(); renderParticipants(); renderCountryChart(); renderSponsors();
+ initFilters(); renderProgram(); renderSpeakers(); renderSpeakerCountryChart(); renderAbstracts(); renderMeetExperts(); renderCommittee(); renderParticipants(); renderCountryChart(); renderSponsors();
 }
 function initFilters(){
  $('dayFilter').innerHTML='<option value="">All days</option>'+[...new Set(state.program.map(x=>x.day).filter(Boolean))].map(x=>`<option>${x}</option>`).join('');
@@ -23,7 +23,20 @@ function initFilters(){
  $('closeModal').onclick=()=>{$('modal').style.display='none'}; $('modal').onclick=e=>{if(e.target.id==='modal') $('modal').style.display='none'};
 }
 function renderProgram(){const q=norm($('programSearch').value), d=$('dayFilter').value; let data=state.program.filter(x=>(!d||x.day===d)&&norm(Object.values(x).join(' ')).includes(q)); let html='', cur=''; data.forEach(e=>{if(e.day!==cur){cur=e.day; html+=`<h3>${cur} <span class="muted">${e.date||''}</span></h3>`} html+=`<div class="event"><div class="time">${e.time||''}</div><h3>${e.session_type||e.topic||'Session'}</h3><p>${e.topic||''}</p><p class="muted">${e.speakers||''}</p></div>`}); $('programList').innerHTML=html||'<p>No matching sessions.</p>';}
-function renderSpeakers(){const q=norm($('speakerSearch').value), c=$('speakerCountryFilter').value; let data=state.speakers.filter(p=>(!c||p.country===c)&&norm([p.name,p.country,p.role,p.profile_url].join(' ')).includes(q)); $('speakerList').innerHTML=data.map(p=>{const name=p.profile_url?`<a class="speaker-link" href="${p.profile_url}" target="_blank" rel="noopener noreferrer">${p.name}</a>`:p.name;return `<div class="person speaker-card"><h3>${name}</h3><p class="muted">${p.country||''}</p><span class="badge">${p.role||'Speaker'}</span>${p.profile_url?'<span class="profile-hint">Open profile ↗</span>':''}</div>`}).join('')||'<p>No matching speakers.</p>';}
+function renderSpeakers(){
+const q=norm($('speakerSearch').value), c=$('speakerCountryFilter').value;
+let data=state.speakers.filter(p=>(!c||p.country===c)&&norm([p.name,p.country,p.role,p.profile_url].join(' ')).includes(q));
+$('speakerList').innerHTML=data.map(p=>{
+const name=p.profile_url?`<a class="speaker-link" href="${p.profile_url}" target="_blank" rel="noopener noreferrer">${p.name}</a>`:p.name;
+return `<div class="person speaker-card">
+${p.photo?`<img src="${p.photo}" class="profile-photo">`:`<div class="profile-placeholder">Photo</div>`}
+<h3>${name}</h3>
+<p class="muted">${p.country||''}</p>
+<span class="badge">${p.role||'Speaker'}</span>
+${p.profile_url?'<span class="profile-hint">Open profile ↗</span>':''}
+</div>`
+}).join('')||'<p>No matching speakers.</p>';
+}
 function renderSpeakerCountryChart(){const q=norm($('speakerSearch').value), c=$('speakerCountryFilter').value; let data=state.speakers.filter(p=>(!c||p.country===c)&&norm([p.name,p.country,p.role].join(' ')).includes(q)); const counts={}; data.forEach(p=>{const country=p.country||'Unknown';counts[country]=(counts[country]||0)+1}); const labels=Object.keys(counts).sort(); const values=labels.map(x=>counts[x]); const ctx=$('speakerCountryChart'); if(ctx&&window.Chart){if(speakerCountryChart) speakerCountryChart.destroy(); speakerCountryChart=new Chart(ctx,{type:'doughnut',data:{labels,datasets:[{data:values}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom'}}}})} const summary=$('speakerCountrySummary'); if(summary){summary.innerHTML=labels.map(label=>`<span class="country-pill">${label}: ${counts[label]}</span>`).join('');}}
 
 function renderAbstracts(){
@@ -44,3 +57,30 @@ function renderCountryChart(){const q=norm($('participantSearch').value), c=$('c
 function renderSponsors(){ $('sponsorList').innerHTML=state.sponsors.map(s=>`<div class="sponsor"><img src="${s.logo}" alt="${s.name}"><h3>${s.name}</h3><span class="badge">${s.level}</span></div>`).join('')||'<p>Sponsor logos can be added in assets/logos.</p>';}
 function escapeHtml(s){return (s||'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]))}
 load();
+
+
+function renderCommittee(){
+ const data=state.local_committee||[];
+ const el=document.getElementById('committeeList');
+ if(!el) return;
+ el.innerHTML=data.map(p=>`
+ <div class="person speaker-card">
+   ${p.photo ? `<img src="${p.photo}" class="profile-photo">` : `<div class="profile-placeholder">Photo</div>`}
+   <h3>${p.name}</h3>
+   <p>${p.affiliation||''}</p>
+   <span class="badge">${p.role||''}</span>
+ </div>`).join('');
+}
+
+function renderMeetExperts(){
+ const data=state.meet_experts||[];
+ const el=document.getElementById('meetExpertList');
+ if(!el) return;
+ el.innerHTML=data.map(p=>`
+ <div class="person speaker-card">
+   ${p.photo ? `<img src="${p.photo}" class="profile-photo">` : `<div class="profile-placeholder">Photo</div>`}
+   <h3>${p.title||''}</h3>
+   <p>${p.speaker||'Speaker information coming soon'}</p>
+   <p class="muted">${p.description||''}</p>
+ </div>`).join('');
+}

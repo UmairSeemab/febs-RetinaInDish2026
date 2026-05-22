@@ -41,3 +41,33 @@
 .filter-pill{display:inline-block;padding:5px 9px;border-radius:999px;background:#eef6ff;color:#073763;font-size:.84rem;font-weight:700}
 #abstractCount{margin:8px 0 12px;color:#65758b;font-weight:700}
 @media(max-width:640px){.abstract-card{min-height:auto}.abstract-summary{padding:10px}}
+
+
+.header-img{
+  width:100%;
+  max-width:1100px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.35);
+}
+
+.profile-photo{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  border-radius:14px;
+  margin-bottom:12px;
+}
+
+.profile-placeholder{
+  width:100%;
+  height:220px;
+  border:2px dashed #666;
+  border-radius:14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#bbb;
+  margin-bottom:12px;
+  background:#111;
+  font-size:18px;
+}
