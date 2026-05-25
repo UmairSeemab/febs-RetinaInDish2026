@@ -16,5 +16,77 @@
     "role": "Co-organizer",
     "affiliation": "University of Helsinki",
     "photo": "assets/speakers/ala_laurila.jpg"
+  },
+  {
+    "name": "Nicholas Bariesheff",
+    "first_name": "Nicholas",
+    "last_name": "Bariesheff",
+    "affiliation": "University of Eastern Finland",
+    "country": "Finland",
+    "role": "Local Organizing Committee"
+  },
+  {
+    "name": "Santhana Gopalakrishan",
+    "first_name": "Santhana",
+    "last_name": "Gopalakrishan",
+    "affiliation": "University of Eastern Finland",
+    "country": "Finland",
+    "role": "Local Organizing Committee"
+  },
+  {
+    "name": "Anna Kalatanova",
+    "first_name": "Anna",
+    "last_name": "Kalatanova",
+    "affiliation": "University of Eastern Finland",
+    "country": "Finland",
+    "role": "Local Organizing Committee"
+  },
+  {
+    "name": "Eerik Lappalainen",
+    "first_name": "Eerik",
+    "last_name": "Lappalainen",
+    "affiliation": "University of Eastern Finland",
+    "country": "Finland",
+    "role": "Local Organizing Committee"
+  },
+  {
+    "name": "Anthi-Styliani Makiou",
+    "first_name": "Anthi-Styliani",
+    "last_name": "Makiou",
+    "affiliation": "University of Eastern Finland",
+    "country": "Finland",
+    "role": "Local Organizing Committee"
+  },
+  {
+    "name": "Elina Mäkinen",
+    "first_name": "Elina",
+    "last_name": "Mäkinen",
+    "affiliation": "University of Eastern Finland",
+    "country": "Finland",
+    "role": "Local Organizing Committee"
+  },
+  {
+    "name": "Umair Seemab",
+    "first_name": "Umair",
+    "last_name": "Seemab",
+    "affiliation": "University of Eastern Finland",
+    "country": "Finland",
+    "role": "Local Organizing Committee"
+  },
+  {
+    "name": "Tommi Torsti",
+    "first_name": "Tommi",
+    "last_name": "Torsti",
+    "affiliation": "University of Eastern Finland",
+    "country": "Finland",
+    "role": "Local Organizing Committee"
+  },
+  {
+    "name": "Katri Vainionpää",
+    "first_name": "Katri",
+    "last_name": "Vainionpää",
+    "affiliation": "University of Eastern Finland",
+    "country": "Finland",
+    "role": "Local Organizing Committee"
   }
 ]
