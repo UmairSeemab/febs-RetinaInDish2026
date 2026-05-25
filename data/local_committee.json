@@ -26,25 +26,9 @@
     "role": "Local Organizing Committee"
   },
   {
-    "name": "Santhana Gopalakrishan",
-    "first_name": "Santhana",
-    "last_name": "Gopalakrishan",
-    "affiliation": "University of Eastern Finland",
-    "country": "Finland",
-    "role": "Local Organizing Committee"
-  },
-  {
     "name": "Anna Kalatanova",
     "first_name": "Anna",
     "last_name": "Kalatanova",
-    "affiliation": "University of Eastern Finland",
-    "country": "Finland",
-    "role": "Local Organizing Committee"
-  },
-  {
-    "name": "Eerik Lappalainen",
-    "first_name": "Eerik",
-    "last_name": "Lappalainen",
     "affiliation": "University of Eastern Finland",
     "country": "Finland",
     "role": "Local Organizing Committee"
@@ -85,6 +69,22 @@
     "name": "Katri Vainionpää",
     "first_name": "Katri",
     "last_name": "Vainionpää",
+    "affiliation": "University of Eastern Finland",
+    "country": "Finland",
+    "role": "Local Organizing Committee"
+  },
+  {
+    "name": "Eerik Lappalainen",
+    "first_name": "Eerik",
+    "last_name": "Lappalainen",
+    "affiliation": "University of Eastern Finland",
+    "country": "Finland",
+    "role": "Local Organizing Committee"
+  },
+  {
+    "name": "Santhana Gopalakrishan",
+    "first_name": "Santhana",
+    "last_name": "Gopalakrishan",
     "affiliation": "University of Eastern Finland",
     "country": "Finland",
     "role": "Local Organizing Committee"
