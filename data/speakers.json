@@ -67,7 +67,7 @@
     "country": "Germany",
     "role": "Speaker",
     "profile_url": "https://www.uni-kiel.de/en/person/klettner-alexa-karina-8087",
-    "photo": ""
+    "photo": "assets/speakers/Arto_Urtti.jpg"
   },
   {
     "id": "P058",
@@ -77,7 +77,7 @@
     "country": "Germany",
     "role": "Speaker",
     "profile_url": "https://scholar.google.com/citations?user=APG5NWkAAAAJ&hl=es",
-    "photo": ""
+    "photo": "assets/speakers/Ana_Almansa_Garcia.jpg"
   },
   {
     "id": "P061",
@@ -87,7 +87,7 @@
     "country": "Spain",
     "role": "Speaker",
     "profile_url": "https://www.uchceu.es/directorio/antolin-cantocatala",
-    "photo": ""
+    "photo": "assets/speakers/Antolin_Canto.png"
   },
   {
     "id": "P059",
@@ -97,7 +97,7 @@
     "country": "Germany",
     "role": "Speaker",
     "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/ueffing-lab/members/blanca-arango-gonzalez",
-    "photo": ""
+    "photo": "assets/speakers/Arto_Urtti.jpg"
   },
   {
     "id": "P064",
@@ -107,7 +107,7 @@
     "country": "Germany",
     "role": "Speaker",
     "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/paquet-durand-lab/members",
-    "photo": ""
+    "photo": "assets/speakers/Arto_Urtti.jpg"
   },
   {
     "id": "P078",
@@ -117,7 +117,7 @@
     "country": "USA",
     "role": "Speaker",
     "profile_url": "https://vinberglab.com/our-team",
-    "photo": ""
+    "photo": "assets/speakers/Arto_Urtti.jpg"
   },
   {
     "id": "P071",
@@ -127,7 +127,7 @@
     "country": "Germany",
     "role": "Speaker",
     "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/paquet-durand-lab/members/francois-paquet-durand",
-    "photo": ""
+    "photo": "assets/speakers/Arto_Urtti.jpg"
   },
   {
     "id": "P069",
@@ -137,7 +137,7 @@
     "country": "USA",
     "role": "Speaker",
     "profile_url": "https://ctvr.uci.edu/about/staff/grazyna-palczewska",
-    "photo": ""
+    "photo": "assets/speakers/Arto_Urtti.jpg"
   },
   {
     "id": "P067",
@@ -147,7 +147,7 @@
     "country": "Finland",
     "role": "Speaker & Course Organizer",
     "profile_url": "https://leinonenretinalab.com/research-group/",
-    "photo": ""
+    "photo": "assets/speakers/Arto_Urtti.jpg"
   },
   {
     "id": "P060",
@@ -157,7 +157,7 @@
     "country": "USA",
     "role": "Speaker",
     "profile_url": "https://scholar.google.com/citations?user=jAMixB0AAAAJ&hl=en",
-    "photo": ""
+    "photo": "assets/speakers/Arto_Urtti.jpg"
   },
   {
     "id": "P068",
@@ -167,7 +167,7 @@
     "country": "Spain",
     "role": "Speaker",
     "profile_url": "https://medios.uchceu.es/actualidad-ceu/en/maria-miranda-recognized-as-one-of-the-top-female-researchers-in-europe-for-vision-and-ophthalmology/",
-    "photo": ""
+    "photo": "assets/speakers/Arto_Urtti.jpg"
   },
   {
     "id": "P057",
@@ -177,7 +177,7 @@
     "country": "Finland",
     "role": "Speaker",
     "profile_url": "http://ala-laurila.biosci.helsinki.fi/#members",
-    "photo": ""
+    "photo": "assets/speakers/Arto_Urtti.jpg"
   },
   {
     "id": "P074",
@@ -187,7 +187,7 @@
     "country": "USA",
     "role": "Speaker",
     "profile_url": "https://neuro.wisc.edu/staff/sinha-raunak/",
-    "photo": ""
+    "photo": "assets/speakers/Raunak_Sinha.jpg"
   },
   {
     "id": "P063",
@@ -197,7 +197,7 @@
     "country": "France",
     "role": "Speaker",
     "profile_url": "https://www.institut-vision.org/index.php/en/researchers/valerie-fradot",
-    "photo": ""
+    "photo": "assets/speakers/Valerie_Fradot.jpeg"
   },
   {
     "id": "P072",
@@ -207,7 +207,7 @@
     "country": "Spain",
     "role": "Speaker",
     "profile_url": "https://scholar.google.com/citations?user=Rpj6GMMAAAAJ&hl=es",
-    "photo": ""
+    "photo": "assets/speakers/Xandra_Pereiro.jpeg"
   },
   {
     "id": "P062",
@@ -217,6 +217,6 @@
     "country": "USA",
     "role": "Speaker",
     "profile_url": "https://www.ophthalmology.pitt.edu/people/yuanyuan-chen-phd",
-    "photo": ""
+    "photo": "assets/speakers/Chen_Yuanyuan.jpg"
   }
 ]
