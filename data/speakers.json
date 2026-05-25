@@ -7,7 +7,7 @@
     "country": "Finland",
     "role": "Keynote Speaker",
     "profile_url": "https://uefconnect.uef.fi/en/arto.urtti/",
-    "photo": ""
+    "photo": "assets/speakers/Arto_Urtti.jpg"
   },
   {
     "id": "P065",
@@ -17,7 +17,7 @@
     "country": "Finland",
     "role": "Keynote Speaker",
     "profile_url": "https://experimentica.com/team/giedrius-kalesnykas/",
-    "photo": ""
+    "photo": "assets/speakers/Giedrius_Kalesnykas.png"
   },
   {
     "id": "P073",
@@ -27,7 +27,7 @@
     "country": "Finland",
     "role": "Keynote Speaker",
     "profile_url": "https://experimentica.com/team/jukka-puolivali/",
-    "photo": ""
+    "photo": "assets/speakers/Jukka_Puolivali.png"
   },
   {
     "id": "P070",
@@ -37,7 +37,7 @@
     "country": "USA",
     "role": "Keynote Speaker",
     "profile_url": "https://en.wikipedia.org/wiki/Krzysztof_Palczewski",
-    "photo": ""
+    "photo": "assets/speakers/Krzysztof_Palczewski.png"
   },
   {
     "id": "P076",
@@ -47,7 +47,7 @@
     "country": "Germany",
     "role": "Keynote Speaker",
     "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/ueffing-lab/members/marius-ueffing",
-    "photo": ""
+    "photo": "assets/speakers/Marius_Ueffing.jpg"
   },
   {
     "id": "P075",
@@ -57,7 +57,7 @@
     "country": "Finland",
     "role": "Keynote Speaker",
     "profile_url": "https://www.linkedin.com/in/teemu-t-turunen/",
-    "photo": ""
+    "photo": "assets/speakers/Teemu_Turunen.jpeg"
   },
   {
     "id": "P066",

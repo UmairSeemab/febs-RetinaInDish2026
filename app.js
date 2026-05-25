@@ -12,7 +12,9 @@ let countryChart=null;
 let speakerCountryChart=null;
 async function load(){for(const k of Object.keys(state)){state[k]=await fetch(`data/${k}.json`).then(r=>r.json())}renderAll()}
 function renderAll(){
- $('eventTitle').textContent=state.meta.title; $('eventSub').textContent=`${state.meta.subtitle} • ${state.meta.location} • ${state.meta.dates}`;
+ const titleEl=$('eventTitle'), subEl=$('eventSub');
+ if(titleEl && state.meta) titleEl.textContent=state.meta.title || '';
+ if(subEl && state.meta) subEl.textContent=`${state.meta.subtitle || ''} • ${state.meta.location || ''} • ${state.meta.dates || ''}`;
  const allCountries=new Set([...state.participants.map(p=>p.country).filter(Boolean),...state.speakers.map(p=>p.country).filter(Boolean)]);
  $('overview').innerHTML=[['Program items',state.program.length],['Poster abstracts',state.abstracts.length],['Speakers',state.speakers.length],['Participants',state.participants.length],['Countries',allCountries.size]].map(x=>`<div class="card"><h3>${x[1]}</h3><p>${x[0]}</p></div>`).join('');
  $('week').innerHTML=state.week.map(w=>`<div class="daybox"><div><b>${w.day}</b><br><span class="muted">${w.date}</span></div><div><b>${w.what}</b><p>${w.morning_afternoon||''}</p><span class="badge">${w.evening||'Course program'}</span></div></div>`).join('');

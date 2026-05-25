@@ -10,31 +10,33 @@
 <div id="landingSplash" class="landing-splash" aria-label="Course landing screen">
   <img src="assets/images/landing-poster.jpg" alt="FEBS 2026 Retina in a Dish">
 </div>
-<header class="hero">
-  <div class="hero-inner">
-    <div class="hero-text">
-      <span class="eyebrow">FEBS 2026 Advanced Course</span>
-      <h1 id="eventTitle">Retina in a Dish 2026</h1>
-      <p id="eventSub"></p>
-      <div class="hero-actions">
-        <a href="#program">View program</a>
-        <a href="#abstracts">Browse abstracts</a>
-      </div>
-    </div>
-    <div class="hero-visual">
-      <img src="assets/images/landing-poster.jpg" class="header-img" alt="Retina in a Dish 2026 banner">
-    </div>
-  </div>
+<div class="site-shell">
+<header class="topbar">
+  <a class="brand" href="#home" aria-label="Retina in a Dish home">
+    <img src="assets/images/landing-poster.jpg" alt="FEBS 2026 logo">
+  </a>
+  <nav class="tabs">
+    <a href="#home">Home</a>
+    <a href="#program">Program</a>
+    <a href="#speakers">Speakers</a>
+    <a href="#abstracts">Abstracts</a>
+    <a href="#meetexperts">Meet the Expert</a>
+    <a href="#committee">Committee</a>
+    <a href="#participants">Participants</a>
+    <a href="#sponsors">Sponsors</a>
+  </nav>
+  <a class="date-pill" href="#program">8–12 June 2026</a>
 </header>
-<nav class="tabs">
-  <a href="#home">Home</a>
-  <a href="#program">Program</a>
-  <a href="#speakers">Speakers</a>
-  <a href="#abstracts">Abstracts</a>
-  <a href="#committee">Committee</a>
-  <a href="#participants">Participants</a>
-  <a href="#sponsors">Sponsors</a>
-</nav>
+<header class="hero">
+  <img src="assets/images/hero-banner-wide.png" class="hero-banner" alt="FEBS 2026 Retina in a Dish banner">
+</header>
+<section class="feature-strip" aria-label="Course highlights">
+  <article><div class="feature-icon">🔬</div><h3>Hands-on Training</h3><p>Practical sessions with expert guidance.</p></article>
+  <article><div class="feature-icon">👥</div><h3>Expert Faculty</h3><p>Learn from leaders in retinal research.</p></article>
+  <article><div class="feature-icon">🧪</div><h3>Advanced Methods</h3><p>Explore retinal models and applications.</p></article>
+  <article><div class="feature-icon">📍</div><h3>Kuopio, Finland</h3><p>Science in the heart of Finnish nature.</p></article>
+</section>
+</div>
 <main>
 <section id="home" class="panel"><h2>Overview</h2><div id="overview" class="cards"></div><h2>Week in a nutshell</h2><div id="week" class="timeline"></div></section>
 <section id="program" class="panel"><h2>Program schedule</h2><div class="controls"><input id="programSearch" placeholder="Search program"><select id="dayFilter"><option value="">All days</option></select></div><div id="programList"></div></section>
