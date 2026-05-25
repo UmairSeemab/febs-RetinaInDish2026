@@ -1,5 +1,15 @@
 [
   {
+    "id": "P070",
+    "name": "Krzysztof Palczewski",
+    "first_name": "Krzysztof",
+    "last_name": "Palczewski",
+    "country": "USA",
+    "role": "Keynote Speaker",
+    "profile_url": "https://en.wikipedia.org/wiki/Krzysztof_Palczewski",
+    "photo": "assets/speakers/Krzysztof_Palczewski.png"
+  },
+  {
     "id": "P077",
     "name": "Arto Urtti",
     "first_name": "Arto",
@@ -8,6 +18,16 @@
     "role": "Keynote Speaker",
     "profile_url": "https://uefconnect.uef.fi/en/arto.urtti/",
     "photo": "assets/speakers/Arto_Urtti.jpg"
+  },
+  {
+    "id": "P076",
+    "name": "Marius Ueffing",
+    "first_name": "Marius",
+    "last_name": "Ueffing",
+    "country": "Germany",
+    "role": "Keynote Speaker",
+    "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/ueffing-lab/members/marius-ueffing",
+    "photo": "assets/speakers/Marius_Ueffing.jpg"
   },
   {
     "id": "P065",
@@ -28,26 +48,6 @@
     "role": "Keynote Speaker",
     "profile_url": "https://experimentica.com/team/jukka-puolivali/",
     "photo": "assets/speakers/Jukka_Puolivali.png"
-  },
-  {
-    "id": "P070",
-    "name": "Krzysztof Palczewski",
-    "first_name": "Krzysztof",
-    "last_name": "Palczewski",
-    "country": "USA",
-    "role": "Keynote Speaker",
-    "profile_url": "https://en.wikipedia.org/wiki/Krzysztof_Palczewski",
-    "photo": "assets/speakers/Krzysztof_Palczewski.png"
-  },
-  {
-    "id": "P076",
-    "name": "Marius Ueffing",
-    "first_name": "Marius",
-    "last_name": "Ueffing",
-    "country": "Germany",
-    "role": "Keynote Speaker",
-    "profile_url": "https://www.eye-tuebingen.de/labs/main-labs/ueffing-lab/members/marius-ueffing",
-    "photo": "assets/speakers/Marius_Ueffing.jpg"
   },
   {
     "id": "P075",
