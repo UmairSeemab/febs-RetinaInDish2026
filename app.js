@@ -1,3 +1,11 @@
+
+window.addEventListener('load',()=>{
+  const splash=document.getElementById('landingSplash');
+  if(!splash) return;
+  setTimeout(()=>splash.classList.add('hide'),3000);
+  setTimeout(()=>splash.remove(),3800);
+});
+
 const state={meta:null,week:[],program:[],abstracts:[],participants:[],speakers:[],sponsors:[],local_committee:[],meet_experts:[]};
 const $=id=>document.getElementById(id); const norm=s=>(s||'').toString().toLowerCase();
 let countryChart=null;
