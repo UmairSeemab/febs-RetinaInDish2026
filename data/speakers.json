@@ -60,6 +60,36 @@
     "photo": "assets/speakers/Teemu_Turunen.jpeg"
   },
   {
+    "id": "P067",
+    "name": "Henri Leinonen",
+    "first_name": "Henri",
+    "last_name": "Leinonen",
+    "country": "Finland",
+    "role": "Speaker & Course Organizer",
+    "profile_url": "https://leinonenretinalab.com/research-group/",
+    "photo": "assets/speakers/Leinonen-Henri.jpg"
+  },
+  {
+    "id": "P057",
+    "name": "Petri Ala-Laurila",
+    "first_name": "Petri",
+    "last_name": "Ala-Laurila",
+    "country": "Finland",
+    "role": "Speaker",
+    "profile_url": "http://ala-laurila.biosci.helsinki.fi/#members",
+    "photo": "assets/speakers/ala_laurila.jpg"
+  },
+  {
+    "id": "P078",
+    "name": "Frans Vinberg",
+    "first_name": "Frans",
+    "last_name": "Vinberg",
+    "country": "USA",
+    "role": "Speaker",
+    "profile_url": "https://vinberglab.com/our-team",
+    "photo": "assets/speakers/Frans_Vinberg.png"
+  },
+  {
     "id": "P066",
     "name": "Alexa Klettner",
     "first_name": "Alexa",
@@ -110,16 +140,6 @@
     "photo": "assets/speakers/Catherine_Hottin.jpg"
   },
   {
-    "id": "P078",
-    "name": "Frans Vinberg",
-    "first_name": "Frans",
-    "last_name": "Vinberg",
-    "country": "USA",
-    "role": "Speaker",
-    "profile_url": "https://vinberglab.com/our-team",
-    "photo": "assets/speakers/Frans_Vinberg.png"
-  },
-  {
     "id": "P071",
     "name": "François Paquet-Durand",
     "first_name": "François",
@@ -140,16 +160,6 @@
     "photo": "assets/speakers/Grazyna-Palczewska.jpg"
   },
   {
-    "id": "P067",
-    "name": "Henri Leinonen",
-    "first_name": "Henri",
-    "last_name": "Leinonen",
-    "country": "Finland",
-    "role": "Speaker & Course Organizer",
-    "profile_url": "https://leinonenretinalab.com/research-group/",
-    "photo": "assets/speakers/Leinonen-Henri.jpg"
-  },
-  {
     "id": "P060",
     "name": "Marco Bassetto",
     "first_name": "Marco",
@@ -168,16 +178,6 @@
     "role": "Speaker",
     "profile_url": "https://medios.uchceu.es/actualidad-ceu/en/maria-miranda-recognized-as-one-of-the-top-female-researchers-in-europe-for-vision-and-ophthalmology/",
     "photo": "assets/speakers/Maria_miranda.png"
-  },
-  {
-    "id": "P057",
-    "name": "Petri Ala-Laurila",
-    "first_name": "Petri",
-    "last_name": "Ala-Laurila",
-    "country": "Finland",
-    "role": "Speaker",
-    "profile_url": "http://ala-laurila.biosci.helsinki.fi/#members",
-    "photo": "assets/speakers/ala_laurila.jpg"
   },
   {
     "id": "P074",
