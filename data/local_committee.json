@@ -23,7 +23,8 @@
     "last_name": "Bariesheff",
     "affiliation": "University of Eastern Finland",
     "country": "Finland",
-    "role": "Local Organizing Committee"
+    "role": "Local Organizing Committee",
+    "photo": "assets/localComMem/Nicholas-Bariesheff-v2-1-259x300.png"
   },
   {
     "name": "Anna Kalatanova",
@@ -31,7 +32,8 @@
     "last_name": "Kalatanova",
     "affiliation": "University of Eastern Finland",
     "country": "Finland",
-    "role": "Local Organizing Committee"
+    "role": "Local Organizing Committee",
+    "photo": "assets/localComMem/leinonenretinalab-anna-kalatanova-300x300.jpg"
   },
   {
     "name": "Anthi-Styliani Makiou",
@@ -39,7 +41,8 @@
     "last_name": "Makiou",
     "affiliation": "University of Eastern Finland",
     "country": "Finland",
-    "role": "Local Organizing Committee"
+    "role": "Local Organizing Committee",
+    "photo": "assets/localComMem/Anthi-Styliani_Makiou-300x300.jpeg"
   },
   {
     "name": "Elina Mäkinen",
@@ -47,7 +50,8 @@
     "last_name": "Mäkinen",
     "affiliation": "University of Eastern Finland",
     "country": "Finland",
-    "role": "Local Organizing Committee"
+    "role": "Local Organizing Committee",
+    "photo": "assets/localComMem/Elina-Makinen-300x300.jpeg"
   },
   {
     "name": "Umair Seemab",
@@ -55,15 +59,8 @@
     "last_name": "Seemab",
     "affiliation": "University of Eastern Finland",
     "country": "Finland",
-    "role": "Local Organizing Committee"
-  },
-  {
-    "name": "Tommi Torsti",
-    "first_name": "Tommi",
-    "last_name": "Torsti",
-    "affiliation": "University of Eastern Finland",
-    "country": "Finland",
-    "role": "Local Organizing Committee"
+    "role": "Local Organizing Committee",
+    "photo": "assets/localComMem/Seemab_Umair-300x300.jpg"
   },
   {
     "name": "Katri Vainionpää",
@@ -71,7 +68,17 @@
     "last_name": "Vainionpää",
     "affiliation": "University of Eastern Finland",
     "country": "Finland",
-    "role": "Local Organizing Committee"
+    "role": "Local Organizing Committee",
+    "photo": "assets/localComMem/leinonenretinalab-katri-vainionpaa-300x300.jpg"
+  },
+  {
+    "name": "Tommi Torsti",
+    "first_name": "Tommi",
+    "last_name": "Torsti",
+    "affiliation": "University of Eastern Finland",
+    "country": "Finland",
+    "role": "Local Organizing Committee",
+    "photo": "assets/localComMem/Tomi.jpeg"
   },
   {
     "name": "Eerik Lappalainen",
@@ -79,7 +86,8 @@
     "last_name": "Lappalainen",
     "affiliation": "University of Eastern Finland",
     "country": "Finland",
-    "role": "Local Organizing Committee"
+    "role": "Local Organizing Committee",
+    "photo": "assets/localComMem/Eerik-Lappalainen-1-300x300.jpg"
   },
   {
     "name": "Santhana Gopalakrishan",
@@ -87,6 +95,7 @@
     "last_name": "Gopalakrishan",
     "affiliation": "University of Eastern Finland",
     "country": "Finland",
-    "role": "Local Organizing Committee"
+    "role": "Local Organizing Committee",
+    "photo": "assets/localComMem/Santana.png"
   }
 ]
