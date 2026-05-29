@@ -11,28 +11,28 @@
       "GPCR pharmacology"
     ],
     "shortDescription": "Research on retinal plasticity and novel therapeutic approaches for retinal degeneration.",
-    "details": "My laboratory´s research focuses on two projects: (1) Homeostatic plasticity in the retina, its molecular mechanisms and implications for functional adaptation; (2) investigation of a novel drug repurposing-strategy for the treatment of retinal degenerations (RD). We use the retina as a model tissue for plasticity, pharmacology and drug discovery research for several reasons, such as amenability for noninvasive imaging due to eye’s transparency, finely layered structure and well-characterized structure-function relationships, functional similarity to that of brain due to same neurodevelopmental origin. Arguably, the retina is the best-characterized neuronal system in the body.\n\nI detected retinal adaptability to sensory defect in year 2013 and our first paper related to this was published in 2020 (Leinonen et al., eLife).  Next, we aim to solve the molecular pathways enabling retinal homeostatic plasticity. This knowledge will help to find mechanisms how the CNS adapts to injury and malfunction and can guide pharmacotherapies.\n\nOur drug discovery program uses repurposed GPCR drugs. We have shown that a treatment with a combination therapy comprised of three GPCR-drugs slows progressive RD. The next crucial task is to uncover the therapeutic mechanisms of our therapy. This will facilitate further development of the treatment concept and can launch innovative drug development pipelines.",
+    "details": "Henri Leinonen is a Principal Investigator and Group Leader at the School of Pharmacy, University of Eastern Finland (UEF). He trained in pharmacy (MSc) and completed doctoral research in neurobiology at UEF, followed by postdoctoral training at the Department of Pharmacology, Case Western Reserve University, and the Center for Translational Vision Research at the University of California, Irvine. His research group, established in 2022, integrates retinal pharmacology, drug repurposing, and plasticity-based approaches to counter retinal degeneration and retinal cell stress, with the goal of advancing therapies to address unmet medical needs. His work has been recognized with several competitive distinctions, including an Academy of Finland Fellowship, the FEBS Excellence Award, and the Best Doctoral Thesis of the Year Award at the UEF Faculty of Health Sciences. He serves on the International Scientific Committee of the International Center for Translational Eye Research (ICTER) at the Polish Academy of Sciences and contributes broadly to the academic community through doctoral committee service, external evaluation of dissertations and research funding applications, and participation in academic evaluation processes in Finland and internationally.",
     "website": "https://leinonenretinalab.com/research-group/",
     "id": "henri-leinonen",
     "photo": "assets/speakers/Leinonen-Henri.jpg",
     "description": "Research on retinal plasticity and novel therapeutic approaches for retinal degeneration.",
-    "country": "School of Pharmacy, University of Eastern Finland"
+    "country": "Finland"
   },
   {
     "name": "Grazyna Palczewska",
-    "title": "Associate Professor",
-    "affiliation": "Need to Update",
+    "title": "Project Scientist",
+    "affiliation": "Brunson Center for Translational Vision Research & Gavin Herbert Eye Institute, USA",
     "image": "assets/speakers/Grazyna-Palczewska.jpg",
     "researchAreas": [
       "Need to Update"
     ],
     "shortDescription": "Need to Update",
-    "details": "Need to Update",
-    "website": "Need to Update",
+    "details": "Grazyna Palczewska, PhD is a Project Scientist at the Department of Ophthalmology in the School of Medicine. Dr. Palczewska is advancing custom-developed non-invasive, high-resolution two-photon ophthalmoscopy imaging for routine quantitative evaluation of certain biochemical processes within the healthy, disease and therapy impacted retina. She developed and continue advancing assays and equipment to visualize and quantify impact of the retinal therapies and drug candidates on retina preservation. This includes small molecule, antibody bound ligands and gene editing. Her publications in PNAS outlined the road to safe and informative two-photon imaging in humans. This research was crowned with 2022 Journal of Clinical Investigation where she was part of the team that presented first data on two-photon imaging of the retina in human subjects. Furthermore, because exchange of ideas and expertise among scientists from around the globe is crucial for the progress and competitive research she coordinates Ophthalmology Research Seminars, now word-wide recognize seminar series.",
+    "website": "https://ctvr.uci.edu/about/staff/grazyna-palczewska",
     "id": "grazyna-palczewska",
     "photo": "assets/speakers/Grazyna-Palczewska.jpg",
     "description": "Need to Update",
-    "country": "Need to Update"
+    "country": "USA"
   },
   {
     "name": "Raunak Sinha",
@@ -42,9 +42,9 @@
     "researchAreas": [
       "Need to Update"
     ],
-    "shortDescription": "Need to Update",
+    "shortDescription": "",
     "details": "Need to Update",
-    "website": "Need to Update",
+    "website": "",
     "id": "raunak-sinha",
     "photo": "assets/speakers/Raunak_Sinha.jpg",
     "description": "Need to Update",
