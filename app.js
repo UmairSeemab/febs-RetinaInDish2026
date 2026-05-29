@@ -41,7 +41,7 @@ const name=p.profile_url?`<a class="speaker-link" href="${p.profile_url}" target
 return `<div class="person speaker-card">
 ${p.photo?`<img src="${p.photo}" class="profile-photo">`:`<div class="profile-placeholder">Photo</div>`}
 <h3>${name}</h3>
-<p class="muted">${p.country||''}</p>
+<p class="muted">${p.country||p.affiliation||''}</p>
 <span class="badge">${p.role||'Speaker'}</span>
 ${p.profile_url?'<span class="profile-hint">Open profile ↗</span>':''}
 </div>`
@@ -62,7 +62,7 @@ function openAbstract(id){
  const a=state.abstracts.find(x=>x.id===id);
  if(a&&a.file){window.open(a.file,'_blank','noopener,noreferrer');}
 }
-function renderParticipants(){const q=norm($('participantSearch').value), c=$('countryFilter').value; let data=state.participants.filter(p=>(!c||p.country===c)&&norm([p.name,p.country,p.role].join(' ')).includes(q)); $('participantList').innerHTML=data.map(p=>`<div class="person"><h3>${p.name}</h3><p class="muted">${p.country||''}</p><span class="badge">${p.role}</span></div>`).join('')||'<p>No matching participants.</p>';}
+function renderParticipants(){const q=norm($('participantSearch').value), c=$('countryFilter').value; let data=state.participants.filter(p=>(!c||p.country===c)&&norm([p.name,p.country,p.role].join(' ')).includes(q)); $('participantList').innerHTML=data.map(p=>`<div class="person"><h3>${p.name}</h3><p class="muted">${p.country||p.affiliation||''}</p><span class="badge">${p.role}</span></div>`).join('')||'<p>No matching participants.</p>';}
 function renderCountryChart(){const q=norm($('participantSearch').value), c=$('countryFilter').value; let data=state.participants.filter(p=>(!c||p.country===c)&&norm([p.name,p.country,p.role].join(' ')).includes(q)); const counts={}; data.forEach(p=>{const country=p.country||'Unknown';counts[country]=(counts[country]||0)+1}); const labels=Object.keys(counts).sort(); const values=labels.map(x=>counts[x]); const ctx=$('countryChart'); if(ctx&&window.Chart){if(countryChart) countryChart.destroy(); countryChart=new Chart(ctx,{type:'doughnut',data:{labels,datasets:[{data:values}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom'}}}})} $('countrySummary').innerHTML=labels.map(label=>`<span class="country-pill">${label}: ${counts[label]}</span>`).join('');}
 function renderSponsors(){ $('sponsorList').innerHTML=state.sponsors.map(s=>`<div class="sponsor"><img src="${s.logo}" alt="${s.name}"><h3>${s.name}</h3><span class="badge">${s.level}</span></div>`).join('')||'<p>Sponsor logos can be added in assets/logos.</p>';}
 function escapeHtml(s){return (s||'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]))}
@@ -87,29 +87,29 @@ function renderMeetExperts(){
  const el=document.getElementById('meetExpertList');
  if(!el) return;
  el.innerHTML=data.map(p=>`
- <div class="person speaker-card expert-card" onclick="openExpert('${p.id||''}')" role="button" tabindex="0" onkeypress="if(event.key==='Enter') openExpert('${p.id||''}')">
-   ${p.photo ? `<img src="${p.photo}" class="profile-photo" alt="${escapeHtml(p.name||p.speaker||'Expert')}">` : `<div class="profile-placeholder">Photo</div>`}
-   <h3><button class="expert-name-btn" type="button" onclick="event.stopPropagation(); openExpert('${p.id||''}')">${p.name||p.speaker||'Speaker information coming soon'}</button></h3>
-   <p class="muted">${p.country||''}</p>
+ <div class="person speaker-card expert-card" onclick="openExpert('${p.id||p.name||p.speaker||''}')" role="button" tabindex="0" onkeypress="if(event.key==='Enter') openExpert('${p.id||p.name||p.speaker||''}')">
+   ${(p.photo||p.image) ? `<img src="${p.photo||p.image}" class="profile-photo" alt="${escapeHtml(p.name||p.speaker||'Expert')}">` : `<div class="profile-placeholder">Photo</div>`}
+   <h3><button class="expert-name-btn" type="button" onclick="event.stopPropagation(); openExpert('${p.id||p.name||p.speaker||''}')">${p.name||p.speaker||'Speaker information coming soon'}</button></h3>
+   <p class="muted">${p.country||p.affiliation||''}</p>
    <span class="badge">${p.role||p.title||'Expert'}</span>
-   <p>${p.description||''}</p>
+   <p>${p.description||p.shortDescription||''}</p>
    <p class="open-hint">Open expert details ↗</p>
  </div>`).join('')||'<p>Meet the Expert information will be updated later.</p>';
 }
 
 function openExpert(id){
- const p=(state.meet_experts||[]).find(x=>x.id===id);
+ const p=(state.meet_experts||[]).find(x=>(x.id||x.name||x.speaker)===id);
  if(!p) return;
  const modal=$('modal');
  const content=$('modalContent');
  content.innerHTML=`
    <div class="expert-modal">
-     ${p.photo ? `<img src="${p.photo}" class="expert-modal-photo" alt="${escapeHtml(p.name||p.speaker||'Expert')}">` : ''}
+     ${(p.photo||p.image) ? `<img src="${p.photo||p.image}" class="expert-modal-photo" alt="${escapeHtml(p.name||p.speaker||'Expert')}">` : ''}
      <div>
        <span class="badge">${escapeHtml(p.role||p.title||'Expert')}</span>
        <h2>${escapeHtml(p.name||p.speaker||'Expert')}</h2>
-       <p class="muted">${escapeHtml(p.country||'')}</p>
-       <div class="expert-details">${escapeHtml(p.details||p.description||'Information will be updated later.').replace(/\n/g,'<br>')}</div>
+       <p class="muted">${escapeHtml(p.country||p.affiliation||'')}</p>
+       <div class="expert-details">${escapeHtml(p.details||p.description||p.shortDescription||'Information will be updated later.').replace(/\n/g,'<br>')}</div>
      </div>
    </div>`;
  modal.style.display='block';
