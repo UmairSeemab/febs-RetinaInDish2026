@@ -87,10 +87,30 @@ function renderMeetExperts(){
  const el=document.getElementById('meetExpertList');
  if(!el) return;
  el.innerHTML=data.map(p=>`
- <div class="person speaker-card">
-   ${p.photo ? `<img src="${p.photo}" class="profile-photo">` : `<div class="profile-placeholder">Photo</div>`}
-   <h3>${p.title||''}</h3>
-   <p>${p.speaker||'Speaker information coming soon'}</p>
-   <p class="muted">${p.description||''}</p>
- </div>`).join('');
+ <div class="person speaker-card expert-card" onclick="openExpert('${p.id||''}')" role="button" tabindex="0" onkeypress="if(event.key==='Enter') openExpert('${p.id||''}')">
+   ${p.photo ? `<img src="${p.photo}" class="profile-photo" alt="${escapeHtml(p.name||p.speaker||'Expert')}">` : `<div class="profile-placeholder">Photo</div>`}
+   <h3><button class="expert-name-btn" type="button" onclick="event.stopPropagation(); openExpert('${p.id||''}')">${p.name||p.speaker||'Speaker information coming soon'}</button></h3>
+   <p class="muted">${p.country||''}</p>
+   <span class="badge">${p.role||p.title||'Expert'}</span>
+   <p>${p.description||''}</p>
+   <p class="open-hint">Open expert details ↗</p>
+ </div>`).join('')||'<p>Meet the Expert information will be updated later.</p>';
+}
+
+function openExpert(id){
+ const p=(state.meet_experts||[]).find(x=>x.id===id);
+ if(!p) return;
+ const modal=$('modal');
+ const content=$('modalContent');
+ content.innerHTML=`
+   <div class="expert-modal">
+     ${p.photo ? `<img src="${p.photo}" class="expert-modal-photo" alt="${escapeHtml(p.name||p.speaker||'Expert')}">` : ''}
+     <div>
+       <span class="badge">${escapeHtml(p.role||p.title||'Expert')}</span>
+       <h2>${escapeHtml(p.name||p.speaker||'Expert')}</h2>
+       <p class="muted">${escapeHtml(p.country||'')}</p>
+       <div class="expert-details">${escapeHtml(p.details||p.description||'Information will be updated later.').replace(/\n/g,'<br>')}</div>
+     </div>
+   </div>`;
+ modal.style.display='block';
 }
