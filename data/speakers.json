@@ -218,5 +218,15 @@
     "role": "Speaker",
     "profile_url": "https://www.ophthalmology.pitt.edu/people/yuanyuan-chen-phd",
     "photo": "assets/speakers/Chen_Yuanyuan.jpg"
+  },
+  {
+    "id": "P062",
+    "name": "Elena Vecino",
+    "first_name": "Elena",
+    "last_name": "Vecino",
+    "country": "Spain",
+    "role": "Speaker",
+    "profile_url": "https://www.ehu.eus/en/web/master/master-molecular-biology-biomedicine/teaching-staff?redirect=fichaPDI&idPdi=1739",
+    "photo": "assets/speakers/Elena_spain.png"
   }
 ]
