@@ -1,13 +1,12 @@
 [
   {
-    "id": "henri-leinonen",
-    "title": "Meet the Expert Session",
-    "name": "Henri Leinonen",
-    "speaker": "Henri Leinonen",
-    "country": "Finland",
-    "role": "Expert",
-    "photo": "assets/speakers/Leinonen-Henri.jpg",
-    "description": "Retinal homeostatic plasticity, pharmacology, and drug repurposing for retinal degenerations.",
-    "details": "My laboratory´s research focuses on two projects: (1) Homeostatic plasticity in the retina, its molecular mechanisms and implications for functional adaptation; (2) investigation of a novel drug repurposing-strategy for the treatment of retinal degenerations (RD). We use the retina as a model tissue for plasticity, pharmacology and drug discovery research for several reasons, such as amenability for noninvasive imaging due to eye’s transparency, finely layered structure and well-characterized structure-function relationships, functional similarity to that of brain due to same neurodevelopmental origin. Arguably, the retina is the best-characterized neuronal system in the body.\n\nI detected retinal adaptability to sensory defect in year 2013 and our first paper related to this was published in 2020 (Leinonen et al., eLife).  Next, we aim to solve the molecular pathways enabling retinal homeostatic plasticity. This knowledge will help to find mechanisms how the CNS adapts to injury and malfunction and can guide pharmacotherapies.\n\nOur drug discovery program uses repurposed GPCR drugs. We have shown that a treatment with a combination therapy comprised of three GPCR-drugs slows progressive RD. The next crucial task is to uncover the therapeutic mechanisms of our therapy. This will facilitate further development of the treatment concept and can launch innovative drug development pipelines."
+  "name": "Henri Leinonen",
+  "title": "Associate Professor",
+  "affiliation": "School of Pharmacy, University of Eastern Finland",
+  "image": "assets/speakers/Leinonen-Henri.jpg",
+  "researchAreas": [ "Retinal homeostatic plasticity", "Retinal degeneration", "Drug repurposing", "GPCR pharmacology" ],
+  "shortDescription": "Research on retinal plasticity and novel therapeutic approaches for retinal degeneration.",
+  "details": "My laboratory´s research focuses on two projects: (1) Homeostatic plasticity in the retina, its molecular mechanisms and implications for functional adaptation; (2) investigation of a novel drug repurposing-strategy for the treatment of retinal degenerations (RD). We use the retina as a model tissue for plasticity, pharmacology and drug discovery research for several reasons, such as amenability for noninvasive imaging due to eye’s transparency, finely layered structure and well-characterized structure-function relationships, functional similarity to that of brain due to same neurodevelopmental origin. Arguably, the retina is the best-characterized neuronal system in the body.\n\nI detected retinal adaptability to sensory defect in year 2013 and our first paper related to this was published in 2020 (Leinonen et al., eLife).  Next, we aim to solve the molecular pathways enabling retinal homeostatic plasticity. This knowledge will help to find mechanisms how the CNS adapts to injury and malfunction and can guide pharmacotherapies.\n\nOur drug discovery program uses repurposed GPCR drugs. We have shown that a treatment with a combination therapy comprised of three GPCR-drugs slows progressive RD. The next crucial task is to uncover the therapeutic mechanisms of our therapy. This will facilitate further development of the treatment concept and can launch innovative drug development pipelines.",
+  "website": "https://leinonenretinalab.com/research-group/"
   }
 ]
