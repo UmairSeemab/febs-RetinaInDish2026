@@ -16,7 +16,7 @@
     "id": "henri-leinonen",
     "photo": "assets/speakers/Leinonen-Henri.jpg",
     "description": "Research on retinal plasticity and novel therapeutic approaches for retinal degeneration.",
-    "country": "Finland"
+    "country": "School of Pharmacy, University of Eastern Finland"
   },
   {
     "name": "Grazyna Palczewska",
@@ -24,110 +24,110 @@
     "affiliation": "Brunson Center for Translational Vision Research & Gavin Herbert Eye Institute, USA",
     "image": "assets/speakers/Grazyna-Palczewska.jpg",
     "researchAreas": [
-      "Need to Update"
+      ""
     ],
-    "shortDescription": "Need to Update",
+    "shortDescription": "",
     "details": "Grazyna Palczewska, PhD is a Project Scientist at the Department of Ophthalmology in the School of Medicine. Dr. Palczewska is advancing custom-developed non-invasive, high-resolution two-photon ophthalmoscopy imaging for routine quantitative evaluation of certain biochemical processes within the healthy, disease and therapy impacted retina. She developed and continue advancing assays and equipment to visualize and quantify impact of the retinal therapies and drug candidates on retina preservation. This includes small molecule, antibody bound ligands and gene editing. Her publications in PNAS outlined the road to safe and informative two-photon imaging in humans. This research was crowned with 2022 Journal of Clinical Investigation where she was part of the team that presented first data on two-photon imaging of the retina in human subjects. Furthermore, because exchange of ideas and expertise among scientists from around the globe is crucial for the progress and competitive research she coordinates Ophthalmology Research Seminars, now word-wide recognize seminar series.",
     "website": "https://ctvr.uci.edu/about/staff/grazyna-palczewska",
     "id": "grazyna-palczewska",
     "photo": "assets/speakers/Grazyna-Palczewska.jpg",
     "description": "Need to Update",
-    "country": "USA"
+    "country": "Brunson Center for Translational Vision Research & Gavin Herbert Eye Institute, USA"
   },
   {
     "name": "Raunak Sinha",
     "title": "Associate Professor",
-    "affiliation": "Need to Update",
+    "affiliation": "Department of Neuroscience, University of Wisconsin–Madison, USA",
     "image": "assets/speakers/Raunak_Sinha.jpg",
     "researchAreas": [
-      "Need to Update"
+      ""
     ],
     "shortDescription": "",
     "details": "Raunak did his undergraduate studies in human physiology at Presidency College, University of Calcutta. After a year long research at the Tata Institute of Fundamental Research, Mumbai, he went on to pursue graduate studies in Neuroscience at the International Max Planck Research School, University of Goettingen, Germany. During graduate studies he worked with Jurgen Klingauf in the Dept. of Membrane Biophysics at the Max-Planck Inst. for Biophysical Chemistry headed by Nobel Laureate, Erwin Neher. He studied properties of synaptic transmission in hippocampal neurons – exo-endocyatosis of synaptic vesicles – using single molecule optical microscopy. Thereafter, he moved to Seattle and joined the lab of Fred Rieke for post-doc where he worked on cellular and circuit function in the retina. Here he did foundational work on identifying novel mechanisms by which key neural circuits operate in the fovea – a specialization in the retina (almost) unique to primates that dominate our visual experience. His lab addresses fundamental questions about retinal structure and function in diverse model systems with the aim of understanding cellular, synaptic and circuit mechanisms that shape diverse visual computations.",
-    "website": "",
+    "website": "https://sinha.neuro.wisc.edu/raunak/",
     "id": "raunak-sinha",
     "photo": "assets/speakers/Raunak_Sinha.jpg",
-    "description": "Need to Update",
-    "country": "Need to Update"
+    "description": "",
+    "country": "Department of Neuroscience, University of Wisconsin–Madison, USA"
   },
   {
     "name": "Valerie Fradot",
-    "title": "Associate Professor",
-    "affiliation": "Need to Update",
+    "title": "Research Engineer",
+    "affiliation": "The Institut de la Vision, Paris, France",
     "image": "assets/speakers/Valerie_Fradot.jpeg",
     "researchAreas": [
       "Need to Update"
     ],
-    "shortDescription": "Need to Update",
+    "shortDescription": "",
     "details": "Need to Update",
-    "website": "Need to Update",
+    "website": "https://www.institut-vision.org/en/researchers/valerie-fradot",
     "id": "valerie-fradot",
     "photo": "assets/speakers/Valerie_Fradot.jpeg",
-    "description": "Need to Update",
-    "country": "Need to Update"
+    "description": "",
+    "country": "The Institut de la Vision, Paris, France"
   },
   {
     "name": "Blanca Arango-Gonzalez",
-    "title": "Associate Professor",
-    "affiliation": "Need to Update",
+    "title": "Senior Staff Scientist",
+    "affiliation": "Institute for Ophthalmic Research, University of Tübingen, Germany",
     "image": "assets/speakers/Blanca_Arango_Gonzales.jpg",
     "researchAreas": [
       "Need to Update"
     ],
     "shortDescription": "Need to Update",
     "details": "Need to Update",
-    "website": "Need to Update",
+    "website": "https://www.eye-tuebingen.de/labs/main-labs/ueffing-lab/members/blanca-arango-gonzalez",
     "id": "blanca-arango-gonzalez",
     "photo": "assets/speakers/Blanca_Arango_Gonzales.jpg",
     "description": "Need to Update",
-    "country": "Need to Update"
+    "country": "Institute for Ophthalmic Research, University of Tübingen, Germany"
   },
   {
     "name": "Alexa Klettner",
-    "title": "Associate Professor",
-    "affiliation": "Need to Update",
+    "title": "Professor",
+    "affiliation": "Department of Opthalmology, CAU Kiel University, Germany",
     "image": "assets/speakers/Klettner_Alexa.jpg",
     "researchAreas": [
       "Need to Update"
     ],
     "shortDescription": "Need to Update",
     "details": "Need to Update",
-    "website": "Need to Update",
+    "website": "https://www.uni-kiel.de/en/person/klettner-alexa-karina-8087",
     "id": "alexa-klettner",
     "photo": "assets/speakers/Klettner_Alexa.jpg",
     "description": "Need to Update",
-    "country": "Need to Update"
+    "country": "Department of Opthalmology, CAU Kiel University, Germany"
   },
   {
     "name": "Petri Ala-Laurila",
-    "title": "Associate Professor",
-    "affiliation": "Need to Update",
+    "title": "Professor (Neurobiology)",
+    "affiliation": "University of Helsinki, Finland",
     "image": "assets/speakers/ala_laurila.jpg",
     "researchAreas": [
       "Need to Update"
     ],
     "shortDescription": "Need to Update",
-    "details": "Need to Update",
-    "website": "Need to Update",
+    "details": "I am a “kid” who loves science. I did my PhD in Finland (2000- 2003, Engineering Physics, Helsinki University of Technology) and thereafter moved to the USA, where I did two distinct postdoctoral periods: in Boston (2004-2008, laboratory of Dr. Carter Cornwall) and in Seattle (2008-2012, laboratory of Dr. Fred Rieke). The goal of my lab is to establish a new frontier in the Finnish neuroscience community focusing on signal processing in the mammalian retina.",
+    "website": "http://ala-laurila.biosci.helsinki.fi/#members",
     "id": "petri-ala-laurila",
     "photo": "assets/speakers/ala_laurila.jpg",
     "description": "Need to Update",
-    "country": "Need to Update"
+    "country": "University of Helsinki, Finland"
   },
   {
     "name": "Yuanyuan Chen",
-    "title": "Associate Professor",
-    "affiliation": "Need to Update",
+    "title": "Assistant Professor",
+    "affiliation": "UPMC Vision Institute, University of Pittsburgh, USA",
     "image": "assets/speakers/Chen_Yuanyuan.jpg",
     "researchAreas": [
       "Need to Update"
     ],
     "shortDescription": "Need to Update",
-    "details": "Need to Update",
+    "details": "Dr. Yuanyuan Chen joined the vision research field when she worked with Dr. Krzysztof Palczewski in the Department of Pharmacology at Case Western Reserve University. Dr. Palczewski is a renowned biochemist in vision research who made significant contributions in revealing the molecular structure of the visual pigment rhodopsin, as well as in drug development in blinding disease. She holds two pending patents and has published 18 research and review papers.",
     "website": "Need to Update",
     "id": "yuanyuan-chen",
     "photo": "assets/speakers/Chen_Yuanyuan.jpg",
     "description": "Need to Update",
-    "country": "Need to Update"
+    "country": "UPMC Vision Institute, University of Pittsburgh, USA"
   }
 ]
