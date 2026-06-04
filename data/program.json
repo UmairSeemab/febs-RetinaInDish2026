@@ -21,9 +21,9 @@
     "day": "Monday",
     "date": "Monday, 08 June 2026",
     "time": "9:15-10:00",
-    "session_type": "L1: Intro to organotypic retina cultures",
+    "session_type": "L1: Introduction to organotypic retina cultures",
     "speakers": "Blanca Arango-Gonzalez",
-    "topic": "",
+    "topic": "Retina ex vivo: a living model outside the organism",
     "note": ""
   },
   {
@@ -39,16 +39,16 @@
     "day": "Monday",
     "date": "Monday, 08 June 2026",
     "time": "10:10-10:50",
-    "session_type": "L1: Intro to organotypic retina cultures",
+    "session_type": "L1: Introduction to organotypic retina cultures",
     "speakers": "Blanca Arango-Gonzalez",
-    "topic": "",
+    "topic": "Organotypic retinal cultures: applications, choices, and challenges",
     "note": ""
   },
   {
     "day": "Monday",
     "date": "Monday, 08 June 2026",
     "time": "10:50-11:35",
-    "session_type": "L1: Intro to organotypic retina cultures",
+    "session_type": "L1: Introduction to organotypic retina cultures",
     "speakers": "François Paquet-Durand",
     "topic": "Development of serum free organotypic retinal explant cultures: A historical overview",
     "note": ""
@@ -67,18 +67,18 @@
     "date": "Monday, 08 June 2026",
     "time": "12:30-13:15",
     "session_type": "L2: Experimental setup & best practises",
-    "speakers": "Catherine Hottin (with FPD)",
-    "topic": "Dissection, media composition, and maintaining tissue viability in rodent",
-    "note": "OK for CH!"
+    "speakers": "Catherine Hottin",
+    "topic": "Experimental setup and best practices",
+    "note": ""
   },
   {
     "day": "Monday",
     "date": "Monday, 08 June 2026",
     "time": "13:15-14:00",
     "session_type": "L2: Experimental setup & best practises",
-    "speakers": "Ana Almansa Garcia (with BAG)",
-    "topic": "Special considerations in porcine and primate retinas",
-    "note": "OK for AA!"
+    "speakers": "Ana Almansa Garcia",
+    "topic": "Porcine and primate retinal explants: special considerations",
+    "note": ""
   },
   {
     "day": "Monday",
@@ -92,7 +92,7 @@
   {
     "day": "Monday",
     "date": "Monday, 08 June 2026",
-    "time": "14:30-15:00",
+    "time": "14:30-14:50",
     "session_type": "COFFEE BREAK",
     "speakers": "",
     "topic": "",
@@ -101,26 +101,26 @@
   {
     "day": "Monday",
     "date": "Monday, 08 June 2026",
-    "time": "15:00-15:45",
+    "time": "14:50-15:45",
     "session_type": "Keynote 1",
     "speakers": "Arto Urtti",
-    "topic": "TBA",
+    "topic": "Delivering Therapies to the Retina: Barriers, Models, and Finnish Contributions",
     "note": ""
   },
   {
     "day": "Monday",
     "date": "Monday, 08 June 2026",
     "time": "15:45-16:05",
-    "session_type": "FT1: Selected abstract flash talks (5?)",
+    "session_type": "FT1: Selected abstract flash talks",
     "speakers": "Host: Nick Bariesheff",
-    "topic": "4x4 min talks",
+    "topic": "Short talks by attendees (3 x 5 min)",
     "note": ""
   },
   {
     "day": "Monday",
     "date": "Monday, 08 June 2026",
     "time": "16:05-16:35",
-    "session_type": "FEBS Press Representative ",
+    "session_type": "FEBS Press Representative",
     "speakers": "Daniela Ruffell",
     "topic": "Responsible publishing: how your choice of journal impacts science (and your reputation)",
     "note": ""
@@ -140,8 +140,8 @@
     "time": "16:40-17:40",
     "session_type": "L3: Writing & Publishing High-Impact Research",
     "speakers": "Henri Leinonen, Petri Ala-Laurila",
-    "topic": "Choosing the right journal, structuring a manuscript, and responding to reviewers",
-    "note": "OK for PAL!"
+    "topic": "Writing & Publishing High-Impact Research",
+    "note": ""
   },
   {
     "day": "Monday",
@@ -149,7 +149,7 @@
     "time": "17:40 -->",
     "session_type": "WG1: Manuscript Abstract & Figure Preparation",
     "speakers": "Same as above",
-    "topic": "Participants can receive feedback on pre-submitted materials",
+    "topic": "Paper clinic: Participants can receive feedback on their manuscripts or rebutal letters",
     "note": ""
   },
   {
@@ -165,7 +165,7 @@
     "day": "Monday",
     "date": "Monday, 08 June 2026",
     "time": "19:00-->",
-    "session_type": "Free time: Everyone willing to Kuopio main market square for Kuopio Dance Festival kick-off.",
+    "session_type": "Free time (Optional but recommended activity @ Kuopio main market square: Kuopio Dance Festival kick-off)",
     "speakers": "",
     "topic": "",
     "note": ""
@@ -176,7 +176,7 @@
     "time": "9-9:45",
     "session_type": "L4: Disease models and therapeutic aspects",
     "speakers": "François Paquet-Durand",
-    "topic": "Inherited retinal degenerations",
+    "topic": "Organotypic retina cultures and inherited retinal degeneration models",
     "note": ""
   },
   {
@@ -186,7 +186,7 @@
     "session_type": "L4: Disease models and therapeutic aspects",
     "speakers": "Alexa Klettner",
     "topic": "Ex vivo organ cultures in AMD research",
-    "note": "OK for MM!"
+    "note": ""
   },
   {
     "day": "Tuesday",
@@ -203,8 +203,8 @@
     "time": "10:40-11:25",
     "session_type": "L4: Disease models and therapeutic aspects",
     "speakers": "Maria Miranda",
-    "topic": "Diabetic retinopathy and oxidative stress",
-    "note": "OK for MM!"
+    "topic": "Beyond Blood Vessels: Ex vivo Retinal Models to Study Diabetic Retinopathy and Neurodegeneration",
+    "note": ""
   },
   {
     "day": "Tuesday",
@@ -213,7 +213,7 @@
     "session_type": "L4: Disease models and therapeutic aspects",
     "speakers": "Xandra Pereiro or Elena Vecino (online)",
     "topic": "Experimental Glaucoma Models: Matching the Model to the Scientific Question",
-    "note": "OK for XR!"
+    "note": ""
   },
   {
     "day": "Tuesday",
@@ -231,7 +231,7 @@
     "session_type": "SL1: Cell models",
     "speakers": "Xandra Pereiro",
     "topic": "Adult Müller Glia Cultures: From Cellular Plasticity to Neuroprotective Applications",
-    "note": "OK for XR!"
+    "note": ""
   },
   {
     "day": "Tuesday",
@@ -248,8 +248,8 @@
     "time": "14:00-14:30",
     "session_type": "SL1: Cell models",
     "speakers": "Alexa Klettner",
-    "topic": "Porcine single-eye RPE cell culture ",
-    "note": "OK for MM!"
+    "topic": "Porcine single-eye RPE cell culture",
+    "note": ""
   },
   {
     "day": "Tuesday",
@@ -264,9 +264,9 @@
     "day": "Tuesday",
     "date": "Tuesday, 09 June 2026",
     "time": "15:00-15:20",
-    "session_type": "FT2: Selected abstract flash talks ",
-    "speakers": "Host?",
-    "topic": "4x4 min talks",
+    "session_type": "FT2: Selected abstract flash talks",
+    "speakers": "Host: Tommi Torsti",
+    "topic": "Short talks by attendees (3 x 5 min)",
     "note": ""
   },
   {
@@ -275,7 +275,7 @@
     "time": "15:20-15:40",
     "session_type": "L5: Writing Competitive Grant Applications",
     "speakers": "Maria Pikkarainen",
-    "topic": "About ERC, MSCA…",
+    "topic": "ERC, MSCA & Academy Fellowships: What They Fund and How to Prepare",
     "note": ""
   },
   {
@@ -293,7 +293,7 @@
     "time": "15:50-16:00",
     "session_type": "L5: Writing Competitive Grant Applications",
     "speakers": "Henri Leinonen",
-    "topic": "Interested in applying a  Foundation grant - Read the call!",
+    "topic": "Planning to apply funding from Foundations? - Know their story, read the call!",
     "note": ""
   },
   {
@@ -301,8 +301,8 @@
     "date": "Tuesday, 09 June 2026",
     "time": "16:00-17:00",
     "session_type": "L5: Writing Competitive Grant Applications",
-    "speakers": "Henri Leinonen, Frans Vinberg, François Paquet-Durand",
-    "topic": "Structuring proposals for funding agencies (e.g., ERC, NIH, Marie Curie, private foundations)",
+    "speakers": "Henri Leinonen, Frans Vinberg",
+    "topic": "Tips and tricks to academic research funding",
     "note": ""
   },
   {
@@ -310,15 +310,15 @@
     "date": "Tuesday, 09 June 2026",
     "time": "17:00 -->",
     "session_type": "WG2: Developing a Winning Grant Proposal",
-    "speakers": "Same as above ",
-    "topic": "Participants can get feedback (1-on-1) on presubmitted research proposals",
+    "speakers": "Same as above",
+    "topic": "Grant clinic: Participants can get quick tips on research proposals (1-on-1, if necessary)",
     "note": ""
   },
   {
     "day": "Tuesday",
     "date": "Tuesday, 09 June 2026",
     "time": "17:00-18.00",
-    "session_type": "POSTER SESSION 2 + Beach Volley Ball (weather permitting)",
+    "session_type": "POSTER SESSION 2 or Beach Volley Ball (weather permitting)",
     "speakers": "",
     "topic": "",
     "note": ""
@@ -336,7 +336,7 @@
     "day": "Tuesday",
     "date": "Tuesday, 09 June 2026",
     "time": "18:30-20:00",
-    "session_type": "Cruise on Lake Kallavesi (Drinks and snacks at your own expense)",
+    "session_type": "Cruise on Lake Kallavesi (Drinks and snacks at everyone´s own expense)",
     "speakers": "",
     "topic": "",
     "note": ""
@@ -346,9 +346,9 @@
     "date": "Wednesday, 10 June 2026",
     "time": "9:00-10:00",
     "session_type": "Panel 1: Virtual setup of explants",
-    "speakers": "Xandra Pereiro, Antolin Canto, Catherine Hottin, Ana Almansa Garcia, Nick Bariesheff",
-    "topic": "Virtual set up of explants. Discussion of all things that go wrong, points of extra care, common pitfalls and troubleshooting",
-    "note": "OK for CH, XR, AA!"
+    "speakers": "Xandra Pereiro, Antolin Canto, Catherine Hottin, Ana Almansa Garcia",
+    "topic": "Common pitfalls and troubleshooting of retina explants",
+    "note": ""
   },
   {
     "day": "Wednesday",
@@ -357,7 +357,7 @@
     "session_type": "L4: Disease models and therapeutic aspects",
     "speakers": "Yuanyuan Chen",
     "topic": "Ex vivo retinal explants in pharmacology research",
-    "note": "OK for YC!"
+    "note": ""
   },
   {
     "day": "Wednesday",
@@ -374,8 +374,8 @@
     "time": "11:00-11:45",
     "session_type": "L4: Disease models and therapeutic aspects",
     "speakers": "Marco Bassetto",
-    "topic": "RNA interference & RNA therapeutics",
-    "note": "OK for MB!"
+    "topic": "Building a method for efficient RNA interference in retinal explants and its applications",
+    "note": ""
   },
   {
     "day": "Wednesday",
@@ -383,7 +383,7 @@
     "time": "11:45-12:15",
     "session_type": "L4: Disease models and therapeutic aspects",
     "speakers": "Blanca Arango-Gonzalez",
-    "topic": "DRUG DELIVERY?",
+    "topic": "Retinal delivery systems: preclinical testing with organotypic cultures",
     "note": ""
   },
   {
@@ -401,13 +401,13 @@
     "time": "13:10-14:10",
     "session_type": "Keynote 2",
     "speakers": "Krzysztof Palczewski",
-    "topic": "Biochemistry at the Core of Retina Research: Past, Present, and Future ",
+    "topic": "Biochemistry at the Core of Retinal Research: Past, Present, and Future",
     "note": ""
   },
   {
     "day": "Wednesday",
     "date": "Wednesday, 10 June 2026",
-    "time": "14:10:14:30",
+    "time": "14:10:14:20",
     "session_type": "Presentations by sponsors",
     "speakers": "Diagnosys, Phoenix-Micron, Bayer Pharma",
     "topic": "5-min each",
@@ -416,7 +416,7 @@
   {
     "day": "Wednesday",
     "date": "Wednesday, 10 June 2026",
-    "time": "15:00-15:20",
+    "time": "14:20-14:40",
     "session_type": "L8: Industry and Retina Research",
     "speakers": "Jukka Puoliväli",
     "topic": "Training requirements for academic researchers to enter industry",
@@ -425,7 +425,7 @@
   {
     "day": "Wednesday",
     "date": "Wednesday, 10 June 2026",
-    "time": "15:20-15:40",
+    "time": "14:40-15:00",
     "session_type": "L8: Industry and Retina Research",
     "speakers": "Giedrius Kalesnykas",
     "topic": "What retina topics is industry active about currently",
@@ -434,7 +434,7 @@
   {
     "day": "Wednesday",
     "date": "Wednesday, 10 June 2026",
-    "time": "14:30-15:00",
+    "time": "15:00-15:30",
     "session_type": "COFFEE BREAK",
     "speakers": "",
     "topic": "",
@@ -443,35 +443,26 @@
   {
     "day": "Wednesday",
     "date": "Wednesday, 10 June 2026",
-    "time": "16:20-16:40",
+    "time": "15:30-15:50",
     "session_type": "L8: Industry and Retina Research",
     "speakers": "Sara Kangaspeska, Innovestor",
-    "topic": "How to attract early-stage and venture capital investors",
-    "note": "Ok for JP!"
+    "topic": "How to attract early-stage and venture capital investors",
+    "note": ""
   },
   {
     "day": "Wednesday",
     "date": "Wednesday, 10 June 2026",
-    "time": "15:40-16:20",
+    "time": "15:50-16:35",
     "session_type": "L8: Industry and Retina Research",
     "speakers": "Teemu Turunen, Frans Vinberg, Giedrius Kalesnykas, Francois Paquet-Durant",
     "topic": "Spinning off from academia and start ups (10 min each speaker)",
-    "note": "OK for GK!"
+    "note": ""
   },
   {
     "day": "Wednesday",
     "date": "Wednesday, 10 June 2026",
     "time": "16:45 --> late",
-    "session_type": "Departure to Rauhalahti for Traditional night and conference dinner (note: dinner may be at your own expense*; sauna option, bring your swimming suit**)",
-    "speakers": "",
-    "topic": "",
-    "note": "OK for FV!"
-  },
-  {
-    "day": "Wednesday",
-    "date": "Wednesday, 10 June 2026",
-    "time": "* Buffet dinner is 32 € per person",
-    "session_type": "",
+    "session_type": "Departure to Rauhalahti for Traditional Night and Conference Dinner (note: sauna option, bring your swimming suit*)",
     "speakers": "",
     "topic": "",
     "note": ""
@@ -479,7 +470,7 @@
   {
     "day": "Wednesday",
     "date": "Wednesday, 10 June 2026",
-    "time": "** Will be women´s and men´s sauna turns, 1.5-2 h each (take your swimming suit, but no need to take your own towel with)",
+    "time": "* Will be women´s and men´s sauna turns, ~1 h each (take your swimming suit, but no need to take your own towel with)",
     "session_type": "",
     "speakers": "",
     "topic": "",
@@ -490,23 +481,23 @@
     "date": "Thursday, 11 June 2026",
     "time": "9:00-9:45",
     "session_type": "L9: End-point assays in organotypic retina culture experiments",
-    "speakers": "Catherine Hottin, Ana Almansa Garcia, Antolin Canto, Nicholas",
-    "topic": "Histology/IHC staining, microscopy and other end-point assays: challenges and common pitfalls",
-    "note": "OK for CH, AA!"
-  },
-  {
-    "day": "Thursday",
-    "date": "Thursday, 11 June 2026",
-    "time": "9:45-10:15",
-    "session_type": "L9: End-point assays in organotypic retina culture experiments",
-    "speakers": "Francois Paquet-Durant",
-    "topic": "Apoptosis and other sensitive cell death assays ",
+    "speakers": "François Paquet-Durand, Blanca Arango-Gonzalez",
+    "topic": "Degenerative diseases of the retina: mechanisms, targets and endpoints",
     "note": ""
   },
   {
     "day": "Thursday",
     "date": "Thursday, 11 June 2026",
-    "time": "10:15-10:25",
+    "time": "9:45-10:30",
+    "session_type": "L9: End-point assays in organotypic retina culture experiments",
+    "speakers": "Catherine Hottin, Ana Almansa Garcia, Antolin Canto",
+    "topic": "Histology/IHC staining and microscope: challenges and common pitfalls",
+    "note": ""
+  },
+  {
+    "day": "Thursday",
+    "date": "Thursday, 11 June 2026",
+    "time": "10:30-10:40",
     "session_type": "Short break",
     "speakers": "",
     "topic": "",
@@ -515,25 +506,25 @@
   {
     "day": "Thursday",
     "date": "Thursday, 11 June 2026",
-    "time": "10:25-10:55",
+    "time": "10:40-11:10",
     "session_type": "L9: End-point assays in organotypic retina culture experiments",
     "speakers": "Antolin Canto",
-    "topic": "Oxidative stress assays",
+    "topic": "Oxidative stress assays in retinal explants",
     "note": ""
   },
   {
     "day": "Thursday",
     "date": "Thursday, 11 June 2026",
-    "time": "10:50-11:35",
+    "time": "11:10-11:55",
     "session_type": "L10: Functional assays & electrophysiology",
     "speakers": "Grazyna Palczewska",
-    "topic": "Two-photon imaging of the living retina",
+    "topic": "Tracking molecular transformations in the retina with non-invasive two-photon microscopy",
     "note": ""
   },
   {
     "day": "Thursday",
     "date": "Thursday, 11 June 2026",
-    "time": "11:35-12:25",
+    "time": "11:55-12:40",
     "session_type": "LUNCH BREAK",
     "speakers": "",
     "topic": "",
@@ -542,34 +533,34 @@
   {
     "day": "Thursday",
     "date": "Thursday, 11 June 2026",
-    "time": "12:25-13:10",
+    "time": "12:40-13:25",
     "session_type": "L10: Functional assays & electrophysiology",
     "speakers": "Teemu Turunen",
     "topic": "Ex vivo electroretinogram",
-    "note": "OK for TT!"
-  },
-  {
-    "day": "Thursday",
-    "date": "Thursday, 11 June 2026",
-    "time": "13:10-13:55",
-    "session_type": "L10: Functional assays & electrophysiology",
-    "speakers": "Raunak Sinha",
-    "topic": "Patch-clamp of photoreceptors and bipolar cells",
-    "note": "OK for RS!"
-  },
-  {
-    "day": "Thursday",
-    "date": "Thursday, 11 June 2026",
-    "time": "13:55-14:15",
-    "session_type": "FT3: Selected abstract flash talks ",
-    "speakers": "",
-    "topic": "4x4 min talks",
     "note": ""
   },
   {
     "day": "Thursday",
     "date": "Thursday, 11 June 2026",
-    "time": "14:15-14:40",
+    "time": "13:25-14:10",
+    "session_type": "L10: Functional assays & electrophysiology",
+    "speakers": "Raunak Sinha",
+    "topic": "Patch-clamp of photoreceptors and bipolar cells",
+    "note": ""
+  },
+  {
+    "day": "Thursday",
+    "date": "Thursday, 11 June 2026",
+    "time": "14:10-14:30",
+    "session_type": "FT3: Selected abstract flash talks",
+    "speakers": "Host: Anthi-Styliani Makiou",
+    "topic": "Short talks by attendees (3 x 5 min)",
+    "note": ""
+  },
+  {
+    "day": "Thursday",
+    "date": "Thursday, 11 June 2026",
+    "time": "14:30-14:50",
     "session_type": "COFFEE BREAK",
     "speakers": "",
     "topic": "",
@@ -578,35 +569,35 @@
   {
     "day": "Thursday",
     "date": "Thursday, 11 June 2026",
-    "time": "14:40-15:40",
+    "time": "14:50-15:50",
     "session_type": "Keynote 3",
     "speakers": "Marius Ueffing",
-    "topic": "Critical Factors for Success in Retinal Research: A Personal Perspective ",
+    "topic": "Critical Factors for Success in Retinal Research: A Personal Perspective",
     "note": ""
   },
   {
     "day": "Thursday",
     "date": "Thursday, 11 June 2026",
-    "time": "15:40-16:10",
-    "session_type": "FEBS Representative ",
+    "time": "15:50-16:10",
+    "session_type": "FEBS Representative",
     "speakers": "Jan Riemer",
     "topic": "Talk by the FEBS presentative",
-    "note": "OK for JR!"
+    "note": ""
   },
   {
     "day": "Thursday",
     "date": "Thursday, 11 June 2026",
-    "time": "16:10-17:10 ",
+    "time": "16:10-17:00",
     "session_type": "Panel discussion: Towards academic independence (i.e. PI position)",
     "speakers": "Yuanyuan Chen, Petri Ala-Laurila (or HL), Alexa Klettner, K99 recipients (Raunak)",
     "topic": "Insights from PIs, including key considerations, networking, and career trajectory planning",
-    "note": "OK for RS!"
+    "note": ""
   },
   {
     "day": "Thursday",
     "date": "Thursday, 11 June 2026",
     "time": "17:15 -->",
-    "session_type": "POSTER SESSION 3 + Beach Volley Ball (weather permitting) ",
+    "session_type": "POSTER SESSION 3 & Beach Volley Ball (weather permitting)",
     "speakers": "",
     "topic": "",
     "note": ""
@@ -614,8 +605,8 @@
   {
     "day": "Thursday",
     "date": "Thursday, 11 June 2026",
-    "time": "19:15-22",
-    "session_type": "Speaker/senior + LOC dinner at Puijontorni ",
+    "time": "(Speaker dinner @ Puijon torni restaurant 19:00 -->)",
+    "session_type": "",
     "speakers": "",
     "topic": "",
     "note": ""
@@ -627,7 +618,7 @@
     "session_type": "L10: Functional assays & electrophysiology",
     "speakers": "Petri Ala-Laurila",
     "topic": "Patch-clamp of ganglion cells",
-    "note": "OK for PAL!"
+    "note": ""
   },
   {
     "day": "Friday",
@@ -642,10 +633,10 @@
     "day": "Friday",
     "date": "Friday, 12 June 2026",
     "time": "11:15-12:00",
-    "session_type": "L11: The Retina as an Accessible Model for Neuroscience Research",
+    "session_type": "L11: Electrophysiology and visual neuroscience",
     "speakers": "Petri Ala-Laurila",
     "topic": "Mapping visual function from single neurons to behavior",
-    "note": "OK for RS!"
+    "note": ""
   },
   {
     "day": "Friday",
@@ -663,7 +654,7 @@
     "session_type": "L11: The Retina as an Accessible Model for Neuroscience Research",
     "speakers": "Frans Vinberg",
     "topic": "Physiology in human retina ex vivo",
-    "note": "OK for FV!"
+    "note": ""
   },
   {
     "day": "Friday",
@@ -680,7 +671,7 @@
     "time": "14:00-15:00",
     "session_type": "Feedback, event conclusion and future ideas",
     "speakers": "Henri Leinonen",
-    "topic": "Group discussion: Ex vivo versus in vivo – opportunities, challenges and pitfalls:  what did we learn during this week?",
+    "topic": "Group discussion: Ex vivo versus in vivo – opportunities, challenges and pitfalls: what did we learn during this week?",
     "note": ""
   },
   {
