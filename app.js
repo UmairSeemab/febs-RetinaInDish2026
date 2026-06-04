@@ -114,3 +114,39 @@ function openExpert(id){
    </div>`;
  modal.style.display='block';
 }
+
+// Abstract book PDF preview before download
+(function(){
+  const pdfModal = document.getElementById('pdfPreviewModal');
+  const closePdfPreview = document.getElementById('closePdfPreview');
+  const openButtons = [
+    document.getElementById('abstractBookHeroBtn'),
+    document.getElementById('abstractBookFloatBtn')
+  ].filter(Boolean);
+
+  function openPdfPreview(event){
+    if(event) event.preventDefault();
+    if(!pdfModal) return;
+    pdfModal.classList.add('show');
+    pdfModal.setAttribute('aria-hidden','false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closePdfPreviewModal(){
+    if(!pdfModal) return;
+    pdfModal.classList.remove('show');
+    pdfModal.setAttribute('aria-hidden','true');
+    document.body.style.overflow = '';
+  }
+
+  openButtons.forEach(btn => btn.addEventListener('click', openPdfPreview));
+  if(closePdfPreview) closePdfPreview.addEventListener('click', closePdfPreviewModal);
+  if(pdfModal){
+    pdfModal.addEventListener('click', function(event){
+      if(event.target === pdfModal) closePdfPreviewModal();
+    });
+  }
+  document.addEventListener('keydown', function(event){
+    if(event.key === 'Escape' && pdfModal && pdfModal.classList.contains('show')) closePdfPreviewModal();
+  });
+})();

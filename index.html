@@ -29,6 +29,9 @@
 </header>
 <header class="hero">
   <img src="assets/images/hero-banner-wide.png" class="hero-banner" alt="FEBS 2026 Retina in a Dish banner">
+  <div class="hero-actions">
+    <a href="#" id="abstractBookHeroBtn" class="hero-pdf-btn">📄 Preview Abstract Book PDF</a>
+  </div>
 </header>
 <section class="feature-strip" aria-label="Course highlights">
   <article><div class="feature-icon">🔬</div><h3>Hands-on Training</h3><p>Practical sessions with expert guidance.</p></article>
@@ -58,5 +61,19 @@
 <section id="participants" class="panel"><h2>Participant directory</h2><div class="controls"><input id="participantSearch" placeholder="Search participants"><select id="countryFilter"><option value="">All countries</option></select></div><div id="participantList" class="people"></div><div class="chart-panel"><h2>Participants by country</h2><p class="muted">Country distribution based on participant.</p><div class="chart-wrap"><canvas id="countryChart"></canvas></div><div id="countrySummary" class="country-summary"></div></div></section>
 <section id="sponsors" class="panel"><h2>Sponsors</h2><div id="sponsorList" class="sponsors"></div></section>
 </main>
+<a href="#" id="abstractBookFloatBtn" class="floating-pdf-btn" aria-label="Preview and download abstract book PDF">📄 <span>Abstract Book PDF</span></a>
+<div id="pdfPreviewModal" class="pdf-modal" aria-hidden="true">
+  <div class="pdf-modal-card">
+    <button id="closePdfPreview" class="close pdf-close" aria-label="Close PDF preview">×</button>
+    <div class="pdf-modal-header">
+      <div>
+        <h2>Abstract Book PDF</h2>
+        <p class="muted">Preview the abstract book below, then download it.</p>
+      </div>
+      <a href="assets/docs/AbstractsBook.pdf" class="download pdf-download-btn" download>Download PDF</a>
+    </div>
+    <iframe src="assets/docs/AbstractsBook.pdf" class="pdf-frame" title="Abstract Book PDF preview"></iframe>
+  </div>
+</div>
 <div id="modal" class="modal"><div class="modal-card"><button id="closeModal" class="close">×</button><div id="modalContent"></div></div></div>
 <footer>Retina in a Dish 2026 interactive abstract book</footer><script src="https://cdn.jsdelivr.net/npm/chart.js"></script><script src="app.js"></script></body></html>

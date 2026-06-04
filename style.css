@@ -81,3 +81,43 @@ img,canvas{max-width:100%}
 .expert-modal-photo{width:100%;max-height:340px;object-fit:cover;border-radius:16px;border:1px solid #dbe3ee}
 .expert-details{white-space:normal;line-height:1.65;margin-top:12px;color:#17253a}
 @media(max-width:700px){.expert-modal{grid-template-columns:1fr}.expert-modal-photo{max-height:320px}}
+
+/* Navigation cleanup after moving Abstract Book PDF out of the top menu */
+@media(min-width:1201px){
+  .topbar{grid-template-columns:270px minmax(0,1fr) auto;gap:14px}
+  .brand img{width:240px}
+  .tabs{overflow-x:visible;justify-content:center;gap:6px}
+  .tabs a{padding:10px 12px;font-size:.96rem}
+}
+@media(max-width:1200px){
+  .tabs{scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+}
+
+/* Abstract book PDF preview and download buttons */
+.hero{position:relative}
+.hero-actions{position:absolute;left:32px;bottom:32px;display:flex;gap:12px;flex-wrap:wrap;z-index:5}
+.hero-pdf-btn,.floating-pdf-btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:900;border-radius:999px;background:rgba(2,8,20,.78);color:#fff;border:1px solid rgba(255,255,255,.32);backdrop-filter:blur(10px);box-shadow:0 12px 34px rgba(0,0,0,.34)}
+.hero-pdf-btn{padding:14px 20px;font-size:1rem}
+.hero-pdf-btn:hover,.floating-pdf-btn:hover{background:rgba(15,59,95,.92);color:#fff;transform:translateY(-2px)}
+.floating-pdf-btn{position:fixed;right:22px;bottom:22px;z-index:850;padding:12px 18px;font-size:.95rem}
+.pdf-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:1200;padding:18px;overflow:auto}
+.pdf-modal.show{display:block}
+.pdf-modal-card{position:relative;max-width:1120px;margin:3vh auto;background:#fff;color:#17253a;border-radius:20px;padding:18px;box-shadow:0 30px 90px rgba(0,0,0,.45)}
+.pdf-modal-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:6px 46px 14px 6px}
+.pdf-modal-header h2{margin:0 0 4px;color:#0f3b5f;text-align:left}
+.pdf-modal-header p{margin:0}
+.pdf-download-btn{margin:0;white-space:nowrap}
+.pdf-close{z-index:2}
+.pdf-frame{display:block;width:100%;height:78vh;border:1px solid #dbe3ee;border-radius:14px;background:#f6f8fb}
+@media(max-width:760px){
+  .hero-actions{left:14px;right:14px;bottom:14px;justify-content:center}
+  .hero-pdf-btn{width:100%;justify-content:center;padding:12px 14px;font-size:.92rem}
+  .floating-pdf-btn{right:12px;bottom:12px;padding:11px 13px}
+  .floating-pdf-btn span{display:none}
+  .pdf-modal{padding:10px}
+  .pdf-modal-card{margin:2vh auto;padding:12px;border-radius:16px}
+  .pdf-modal-header{display:block;padding:4px 44px 12px 4px}
+  .pdf-download-btn{margin-top:10px;width:100%;text-align:center}
+  .pdf-frame{height:72vh}
+}
