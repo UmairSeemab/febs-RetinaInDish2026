@@ -110,5 +110,21 @@
     "photo": "assets/speakers/Chen_Yuanyuan.jpg",
     "description": "Need to Update",
     "country": "UPMC Vision Institute, University of Pittsburgh, USA"
+  },
+  {
+    "name": "François Paquet-Durand",
+    "title": "Prof. Dr. rer. nat.",
+    "affiliation": "Institute for Ophthalmic Research, University of Tübingen, Germany",
+    "image": "assets/speakers/paquet_durand-francois.jpg",
+    "researchAreas": [
+      ""
+    ],
+    "shortDescription": "",
+    "details": "Professor François Paquet-Durand is a leading vision scientist and Group Leader of the Cell Death Mechanisms Group at the Institute for Ophthalmic Research, University of Tübingen, Germany. With a background in biochemistry and neuroscience, he earned his PhD from the University of Hannover and later completed his Habilitation at the University of Tübingen, focusing on the visualization of neurodegenerative processes. His research has significantly advanced the understanding of inherited retinal degeneration, particularly the molecular mechanisms underlying photoreceptor cell death and the role of cyclic GMP signaling in retinitis pigmentosa. As Assistant Professor of Neuronal Pathophysiology and Chief Scientific Officer of Mireca Medicines GmbH, he has successfully translated fundamental discoveries into therapeutic development strategies for retinal diseases. Professor Paquet-Durand has coordinated major European research initiatives, secured substantial national and international funding, and authored numerous influential publications in leading journals including Nature Medicine, Proceedings of the National Academy of Sciences, and Progress in Retinal and Eye Research. He is an active member of international vision research societies and has received several prestigious awards recognizing his contributions to translational ophthalmic research and innovation.",
+    "website": "https://www.eye-tuebingen.de/labs/main-labs/paquet-durand-lab/members/francois-paquet-durand",
+    "id": "raunak-sinha",
+    "photo": "assets/speakers/paquet_durand-francois.jpg",
+    "description": "",
+    "country": "Institute for Ophthalmic Research, University of Tübingen, Germany"
   }
 ]
