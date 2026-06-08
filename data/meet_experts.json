@@ -29,7 +29,7 @@
     "id": "Frans-Vinberg",
     "photo": "assets/speakers/Frans_Vinberg.png",
     "description": "",
-    "country": "Brunson Center for Translational Vision Research, UC Irvine, USA, USA"
+    "country": "Brunson Center for Translational Vision Research, UC Irvine, USA"
   },
   {
     "name": "Raunak Sinha",
@@ -157,7 +157,7 @@
     "id": "Teemu-Turunen",
     "photo": "assets/speakers/Teemu_Turunen.jpeg",
     "description": "",
-    "country": ""Maculaser, Feinland",
+    "country": ""Maculaser, Feinland"
   },
   {
     "name": "Antolin Canto",
@@ -173,6 +173,6 @@
     "id": "Antolin-Canto",
     "photo": "assets/speakers/Antolin_Canto.png",
     "description": "",
-    "country": ""Department of Biomedical Sciences at the Universidad CEU Cardenal Herrera in Valencia, Spain",
+    "country": ""Department of Biomedical Sciences at the Universidad CEU Cardenal Herrera in Valencia, Spain"
   }
 ]
