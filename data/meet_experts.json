@@ -16,6 +16,22 @@
     "country": "Brunson Center for Translational Vision Research & Gavin Herbert Eye Institute, USA"
   },
   {
+    "name": "Frans Vinberg",
+    "title": "Professor",
+    "affiliation": "Brunson Center for Translational Vision Research, UC Irvine, USA",
+    "image": "assets/speakers/Frans_Vinberg.png",
+    "researchAreas": [
+      ""
+    ],
+    "shortDescription": "",
+    "details": "Dr. Vinberg has over 10 years of experience in ocular research, specifically in retinal (patho)physiology. He has developed and commercialized a novel instrument to measure electrical activity of the retinal cells from ex vivo animal or human donor retina samples. He is currently tenured Associate Professor in the department of Ophthalmology and Visual Sciences at the Brunson Center for Translational Vision Research, UC Irvine. His research is focused on understanding the mechanisms in the photoreceptor cells that enable vision over a wide range of light intensities from a cloudy moonless night to a sunny day on the powdery slopes. Furthermore, his goal is to elucidate how these mechanisms are affected in the major blinding diseases including Age-Related Macular Degeneration and Retinitis Pigmentosa. In his free time, you can find Frans skiing, swimming or watching Formula 1 races.",
+    "website": "https://vinberglab.com/our-team",
+    "id": "Frans-Vinberg",
+    "photo": "assets/speakers/Frans_Vinberg.png",
+    "description": "",
+    "country": "Brunson Center for Translational Vision Research, UC Irvine, USA, USA"
+  },
+  {
     "name": "Raunak Sinha",
     "title": "Associate Professor",
     "affiliation": "Department of Neuroscience, University of Wisconsin–Madison, USA",
@@ -122,7 +138,7 @@
     "shortDescription": "",
     "details": "Professor François Paquet-Durand is a leading vision scientist and Group Leader of the Cell Death Mechanisms Group at the Institute for Ophthalmic Research, University of Tübingen, Germany. With a background in biochemistry and neuroscience, he earned his PhD from the University of Hannover and later completed his Habilitation at the University of Tübingen, focusing on the visualization of neurodegenerative processes. His research has significantly advanced the understanding of inherited retinal degeneration, particularly the molecular mechanisms underlying photoreceptor cell death and the role of cyclic GMP signaling in retinitis pigmentosa. As Assistant Professor of Neuronal Pathophysiology and Chief Scientific Officer of Mireca Medicines GmbH, he has successfully translated fundamental discoveries into therapeutic development strategies for retinal diseases. Professor Paquet-Durand has coordinated major European research initiatives, secured substantial national and international funding, and authored numerous influential publications in leading journals including Nature Medicine, Proceedings of the National Academy of Sciences, and Progress in Retinal and Eye Research. He is an active member of international vision research societies and has received several prestigious awards recognizing his contributions to translational ophthalmic research and innovation.",
     "website": "https://www.eye-tuebingen.de/labs/main-labs/paquet-durand-lab/members/francois-paquet-durand",
-    "id": "raunak-sinha",
+    "id": "Paquet-Durand",
     "photo": "assets/speakers/paquet_durand-francois.jpg",
     "description": "",
     "country": "Institute for Ophthalmic Research, University of Tübingen, Germany"
