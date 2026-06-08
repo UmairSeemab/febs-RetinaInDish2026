@@ -142,5 +142,37 @@
     "photo": "assets/speakers/paquet_durand-francois.jpg",
     "description": "",
     "country": "Institute for Ophthalmic Research, University of Tübingen, Germany"
+  },
+  {
+    "name": "Teemu Turunen",
+    "title": "Chief Scientific Officer",
+    "affiliation": "Maculaser, Feinland",
+    "image": "assets/speakers/Teemu_Turunen.jpeg",
+    "researchAreas": [
+      ""
+    ],
+    "shortDescription": "",
+    "details": "Dr. Teemu Turunen is a biomedical engineer, innovator, and technology leader currently serving as Chief Scientific Officer at [Maculaser](https://www.maculaser.com?utm_source=chatgpt.com), a Finnish medical technology company focused on developing non damaging laser therapies for retinal diseases. He earned both his Master's degree and Doctor of Science (Technology) degree in Bioengineering and Biomedical Engineering from [Aalto University](https://www.aalto.fi?utm_source=chatgpt.com), where his doctoral research focused on retinal physiology, photoreceptor function, electroretinography, and mathematical modeling of visual signaling. Prior to joining Maculaser, he worked at Aalto University in several roles including Project Manager, PhD Researcher, and Innovation Agent, contributing to medical device development, technology commercialization, and innovation management. His work has centered on advancing novel retinal therapies and diagnostic technologies, bridging academic research with clinical translation. Through his leadership at Maculaser, Dr. Turunen has played a key role in the development and validation of innovative laser based treatments for retinal diseases, with research outcomes published in leading scientific journals and aimed at improving the management of retinal disorders and preventing vision loss.",
+    "website": "https://www.linkedin.com/in/teemu-t-turunen/",
+    "id": "Teemu-Turunen",
+    "photo": "assets/speakers/Teemu_Turunen.jpeg",
+    "description": "",
+    "country": ""Maculaser, Feinland"
+  },
+  {
+    "name": "Antolin Canto",
+    "title": "Assistant Professor",
+    "affiliation": "Department of Biomedical Sciences at the Universidad CEU Cardenal Herrera in Valencia, Spain",
+    "image": "assets/speakers/Antolin_Canto.png",
+    "researchAreas": [
+      ""
+    ],
+    "shortDescription": "",
+    "details": "Dr. Antolín Cantó Catalá is an Assistant Professor in the Department of Biomedical Sciences at the Universidad CEU Cardenal Herrera in Valencia, Spain. He holds multidisciplinary training in Pharmacy, Optometry and Vision Science, Human Nutrition and Dietetics, Orthotics and Prosthetics, Bioinformatics, and Biostatistics, complemented by a PhD in Translational Medicine completed in 2023. His research focuses on retinal degeneration, retinitis pigmentosa, oxidative stress, inflammation, neuroprotection, and molecular mechanisms of photoreceptor cell death. Dr. Cantó Catalá has contributed to numerous scientific publications investigating retinal disease pathogenesis, redox imbalance, autophagy, inflammation, diabetic retinopathy, and potential therapeutic strategies for inherited retinal disorders. His work has explored innovative treatment approaches, including progesterone, sulforaphane, dutasteride, and antioxidant-based interventions in experimental models of retinal degeneration. He is an active participant in international vision research conferences such as ARVO, EVER, Pro Retina, and the International Symposium on Retinal Degenerations, where he has presented findings on novel therapeutic targets and disease mechanisms. Through his interdisciplinary expertise and translational research efforts, Dr. Cantó Catalá contributes to advancing the understanding and treatment of retinal neurodegenerative diseases.",
+    "website": "https://www.uchceu.es/directorio/antolin-cantocatala",
+    "id": "Antolin-Canto",
+    "photo": "assets/speakers/Antolin_Canto.png",
+    "description": "",
+    "country": ""Department of Biomedical Sciences at the Universidad CEU Cardenal Herrera in Valencia, Spain"
   }
 ]
